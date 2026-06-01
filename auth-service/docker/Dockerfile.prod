@@ -1,0 +1,60 @@
+# Stage 1: Composer build
+FROM composer:latest AS composer_stage
+
+WORKDIR /app
+COPY . /app
+
+# Fix: ensure bootstrap/cache exists and is writable
+RUN mkdir -p bootstrap/cache \
+    && chmod -R 775 bootstrap/cache
+
+RUN composer install --no-dev --optimize-autoloader
+
+# Stage 2: PHP runtime
+FROM php:8.5-fpm AS php_stage
+
+ENV APP_ENV=production
+ENV APP_DEBUG=false
+
+RUN apt-get update && apt-get install -y \
+    git zip unzip curl libpq-dev libonig-dev libxml2-dev \
+    libzip-dev libpng-dev libjpeg-dev libfreetype6-dev \
+    libssl-dev libcurl4-openssl-dev libxslt-dev libicu-dev \
+    libreadline-dev libedit-dev libsqlite3-dev libargon2-1 \
+    libgd-dev libjson-c-dev libbz2-dev libxpm-dev \
+    && docker-php-ext-install \
+        pdo pdo_pgsql mbstring bz2 zip exif pcntl gd bcmath intl xml opcache \
+    && pecl install redis \
+    && docker-php-ext-enable redis \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Custom PHP-FPM config
+# RUN echo "[www]" > /usr/local/etc/php-fpm.d/zz-custom.conf \
+#     && echo "pm = dynamic" >> /usr/local/etc/php-fpm.d/zz-custom.conf \
+#     && echo "pm.max_children = 20" >> /usr/local/etc/php-fpm.d/zz-custom.conf \
+#     && echo "pm.start_servers = 5" >> /usr/local/etc/php-fpm.d/zz-custom.conf \
+#     && echo "pm.min_spare_servers = 5" >> /usr/local/etc/php-fpm.d/zz-custom.conf \
+#     && echo "pm.max_spare_servers = 10" >> /usr/local/etc/php-fpm.d/zz-custom.conf
+
+# OPCache config
+RUN echo "opcache.enable=1" >> /usr/local/etc/php/conf.d/opcache.ini \
+    && echo "opcache.memory_consumption=128" >> /usr/local/etc/php/conf.d/opcache.ini \
+    && echo "opcache.internedstringsbuffer=8" >> /usr/local/etc/php/conf.d/opcache.ini \
+    && echo "opcache.maxacceleratedfiles=10000" >> /usr/local/etc/php/conf.d/opcache.ini \
+    && echo "opcache.validate_timestamps=0" >> /usr/local/etc/php/conf.d/opcache.ini \
+    && echo "opcache.revalidate_freq=0" >> /usr/local/etc/php/conf.d/opcache.ini
+
+WORKDIR /var/www
+
+COPY --from=composer_stage /app /var/www
+
+# Set permissions
+# RUN chown -R www-data:www-data /var/www \
+#     && chmod -R 755 /var/www/storage /var/www/bootstrap/cache
+# Set permissions
+RUN chown -R www-data:www-data /var/www \
+    && chmod -R 775 /var/www/storage /var/www/bootstrap/cache
+
+EXPOSE 9000
+
+CMD ["php-fpm"]

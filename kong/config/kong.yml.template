@@ -1,0 +1,158 @@
+_format_version: '3.0'
+_transform: true
+
+services:
+  # ========================================
+  # PUBLIC ROUTES AUTH SERVICE
+  # ========================================
+  - name: auth-public-service
+    url: ${API_BASE_URL_AUTH}
+    routes:
+      - name: auth-public-route
+        paths:
+          - /api/v1/auth/dev
+          - /api/v1/auth/register
+          - /api/v1/auth/email/verify
+          - /api/v1/auth/login
+        strip_path: false
+
+  # ========================================
+  # PROTECTED ROUTES AUTH SERVICE (JWT Required)
+  # ========================================
+  - name: auth-protected-service
+    url: ${API_BASE_URL_AUTH}
+    routes:
+      - name: auth-protected-route
+        paths:
+          - /api/v1/auth
+          - /api/v1/auth/internal
+          # - /api/v1/auth/user
+          # - /api/v1/auth/menus
+          # - /api/v1/auth/logout
+        strip_path: false
+    plugins:
+      # JWT plugin (PRIORITY: 1005)
+      - name: jwt
+        config:
+          key_claim_name: ${JWT_CLAIM_KEY} # claim yang dipakai untuk identifikasi consumer
+          secret_is_base64: false
+          claims_to_verify:
+            - exp
+  
+  # ========================================
+  # PUBLIC ROUTES CONTROL CENTER SERVICE
+  # ========================================
+  - name: control-center-public-service
+    url: ${API_BASE_URL_CONTROL_CENTER}
+    routes:
+      - name: control-center-public-route
+        paths:
+          - /api/v1/control-center/dev
+          - /api/v1/control-center/health
+          - /api/v1/control-center/internal/public
+        strip_path: false
+
+  # ========================================
+  # PROTECTED ROUTES CONTROL CENTER SERVICE (JWT Required)
+  # ========================================
+  - name: control-center-protected-service
+    url: ${API_BASE_URL_CONTROL_CENTER}
+    routes:
+      - name: control-center-protected-route
+        paths:
+          - /api/v1/control-center
+          - /api/v1/control-center/internal
+        strip_path: false
+    plugins:
+      # JWT plugin (PRIORITY: 1005)
+      - name: jwt
+        config:
+          key_claim_name: ${JWT_CLAIM_KEY} # claim yang dipakai untuk identifikasi consumer
+          secret_is_base64: false
+          claims_to_verify:
+            - exp
+
+consumers:
+  - username: ${CONSUMERS_USERNAME}
+    jwt_secrets:
+      - key: ${JWT_CLAIM_VALUE}
+        secret: '${JWT_SECRET_KEY}'
+        algorithm: ${JWT_ALGORITHM}
+
+plugins:
+  # Custom inject header (PRIORITY: 100000)
+  - name: custom-inject-header
+    config:
+      enabled: true
+      headers:
+        - name: X-Request-ID
+          generator: timestamp
+          echo_downstream: true
+          override_existing: false
+        - name: X-Log-ID
+          generator: uuid
+          echo_downstream: false
+          override_existing: false
+        - name: X-Profiling
+          generator: epoch
+          echo_downstream: false
+          override_existing: false
+  # Custom CORS (PRIORITY: 99000)
+  - name: custom-cors
+    config:
+      enabled: true
+      origins:
+        - http://127.0.0.1:3000
+        - http://127.0.0.1:5000
+      methods:
+        - GET
+        - POST
+        - PUT
+        - PATCH
+        - DELETE
+        - OPTIONS
+      headers:
+        - Accept
+        - Accept-Language
+        - Content-Type
+        - Authorization
+        - X-Request-ID
+      exposed_headers:
+        - X-Request-ID
+        - X-RateLimit-Limit-ip
+        - X-RateLimit-Limit-user
+        - X-RateLimit-Remaining-ip
+        - X-RateLimit-Remaining-user
+        - X-RateLimit-Reset-ip
+        - X-RateLimit-Reset-user
+      credentials: true
+      max_age: 3600
+      preflight_continue: false
+  # Custom rate limiter (PRIORITY: 2000)
+  - name: custom-rate-limiter
+    config:
+      enabled: true
+      redis_host: ${REDIS_HOST}
+      redis_port: ${REDIS_PORT}
+      redis_database: ${REDIS_DATABASE}
+      redis_timeout: ${REDIS_TIMEOUT}
+      limit_by_ip: ${LIMIT_BY_IP}
+      limit_by_user: ${LIMIT_BY_USER}
+      window_size: ${WINDOW_SIZE}
+  # Custom error handler (PRIORITY: 900)
+  - name: custom-error-handler
+    config:
+      enabled: true
+  # Response Transformer - Remove sensitive headers from upstream
+  - name: response-transformer
+    config:
+      remove:
+        headers:
+          - 'X-Powered-By'
+      add:
+        headers:
+          - Content-Security-Policy:default-src 'self'
+          - Referrer-Policy:no-referrer-when-downgrade
+          - X-Content-Type-Options:nosniff
+          - X-Frame-Options:SAMEORIGIN
+          - X-XSS-Protection:1; mode=block

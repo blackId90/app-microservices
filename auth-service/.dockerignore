@@ -1,0 +1,40 @@
+# Laravel build artifacts
+/vendor
+/node_modules
+/storage/logs
+/storage/framework
+/bootstrap/cache
+
+# Environment files
+.env
+.env.*
+.env.backup
+
+# IDE/editor config
+*.log
+*.swp
+*.swo
+*.idea/
+*.vscode/
+*.DS_Store
+
+# Git
+.git
+.gitignore
+
+# OS/temp files
+Thumbs.db
+*.bak
+*.tmp
+*.cache
+
+# Docker artifacts
+/docker
+Dockerfile*
+docker-compose.yml
+
+# Etc
+*.sqlite
+*.zip
+*.tar
+*.gz

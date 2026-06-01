@@ -1,0 +1,35 @@
+[databases]
+# Auth Service
+db_multi_tenant_auth = host=${DB_HOST} port=${DB_PORT}
+
+# Control Center Service
+db_multi_tenant_control_tenant = host=${DB_HOST} port=${DB_PORT}
+
+# wildcard, Tenant DBs (dinamis via auth_query)
+* = host=${DB_HOST} port=${DB_PORT}
+
+[pgbouncer]
+listen_addr = 0.0.0.0
+listen_port = 6432
+
+auth_type = md5
+auth_file = /etc/pgbouncer/userlist.txt
+auth_query = SELECT company_app_authentication_db_username, company_app_authentication_db_password FROM company_app_authentication WHERE company_app_authentication_company_id = $1
+
+admin_users = ${ADMIN_USERS}
+pool_mode = ${POOL_MODE}
+max_client_conn = ${MAX_CLIENT_CONN}
+default_pool_size = ${DEFAULT_POOL_SIZE}
+min_pool_size = ${MIN_POOL_SIZE}
+reserve_pool_size = ${RESERVE_POOL_SIZE}
+
+server_reset_query = DISCARD ALL
+ignore_startup_parameters = extra_float_digits
+
+log_connections = 1
+log_disconnections = 1
+log_pooler_errors = 1
+
+server_idle_timeout = ${SERVER_IDLE_TIMEOUT}
+server_connect_timeout = ${SERVER_CONNECT_TIMEOUT}
+server_login_retry = ${SERVER_LOGIN_RETRY}

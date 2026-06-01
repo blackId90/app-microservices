@@ -1,0 +1,2572 @@
+[
+	{
+		"regency_id": 1101,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH SELATAN"
+	},
+	{
+		"regency_id": 1102,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH TENGGARA"
+	},
+	{
+		"regency_id": 1103,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH TIMUR"
+	},
+	{
+		"regency_id": 1104,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH TENGAH"
+	},
+	{
+		"regency_id": 1105,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH BARAT"
+	},
+	{
+		"regency_id": 1106,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH BESAR"
+	},
+	{
+		"regency_id": 1107,
+		"regency_province_id": 11,
+		"regency_name": "KAB. PIDIE"
+	},
+	{
+		"regency_id": 1108,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH UTARA"
+	},
+	{
+		"regency_id": 1109,
+		"regency_province_id": 11,
+		"regency_name": "KAB. SIMEULUE"
+	},
+	{
+		"regency_id": 1110,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH SINGKIL"
+	},
+	{
+		"regency_id": 1111,
+		"regency_province_id": 11,
+		"regency_name": "KAB. BIREUEN"
+	},
+	{
+		"regency_id": 1112,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH BARAT DAYA"
+	},
+	{
+		"regency_id": 1113,
+		"regency_province_id": 11,
+		"regency_name": "KAB. GAYO LUES"
+	},
+	{
+		"regency_id": 1114,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH JAYA"
+	},
+	{
+		"regency_id": 1115,
+		"regency_province_id": 11,
+		"regency_name": "KAB. NAGAN RAYA"
+	},
+	{
+		"regency_id": 1116,
+		"regency_province_id": 11,
+		"regency_name": "KAB. ACEH TAMIANG"
+	},
+	{
+		"regency_id": 1117,
+		"regency_province_id": 11,
+		"regency_name": "KAB. BENER MERIAH"
+	},
+	{
+		"regency_id": 1118,
+		"regency_province_id": 11,
+		"regency_name": "KAB. PIDIE JAYA"
+	},
+	{
+		"regency_id": 1171,
+		"regency_province_id": 11,
+		"regency_name": "KOTA BANDA ACEH"
+	},
+	{
+		"regency_id": 1172,
+		"regency_province_id": 11,
+		"regency_name": "KOTA SABANG"
+	},
+	{
+		"regency_id": 1173,
+		"regency_province_id": 11,
+		"regency_name": "KOTA LHOKSEUMAWE"
+	},
+	{
+		"regency_id": 1174,
+		"regency_province_id": 11,
+		"regency_name": "KOTA LANGSA"
+	},
+	{
+		"regency_id": 1175,
+		"regency_province_id": 11,
+		"regency_name": "KOTA SUBULUSSALAM"
+	},
+	{
+		"regency_id": 1201,
+		"regency_province_id": 12,
+		"regency_name": "KAB. TAPANULI TENGAH"
+	},
+	{
+		"regency_id": 1202,
+		"regency_province_id": 12,
+		"regency_name": "KAB. TAPANULI UTARA"
+	},
+	{
+		"regency_id": 1203,
+		"regency_province_id": 12,
+		"regency_name": "KAB. TAPANULI SELATAN"
+	},
+	{
+		"regency_id": 1204,
+		"regency_province_id": 12,
+		"regency_name": "KAB. NIAS"
+	},
+	{
+		"regency_id": 1205,
+		"regency_province_id": 12,
+		"regency_name": "KAB. LANGKAT"
+	},
+	{
+		"regency_id": 1206,
+		"regency_province_id": 12,
+		"regency_name": "KAB. KARO"
+	},
+	{
+		"regency_id": 1207,
+		"regency_province_id": 12,
+		"regency_name": "KAB. DELI SERDANG"
+	},
+	{
+		"regency_id": 1208,
+		"regency_province_id": 12,
+		"regency_name": "KAB. SIMALUNGUN"
+	},
+	{
+		"regency_id": 1209,
+		"regency_province_id": 12,
+		"regency_name": "KAB. ASAHAN"
+	},
+	{
+		"regency_id": 1210,
+		"regency_province_id": 12,
+		"regency_name": "KAB. LABUHANBATU"
+	},
+	{
+		"regency_id": 1211,
+		"regency_province_id": 12,
+		"regency_name": "KAB. DAIRI"
+	},
+	{
+		"regency_id": 1212,
+		"regency_province_id": 12,
+		"regency_name": "KAB. TOBA"
+	},
+	{
+		"regency_id": 1213,
+		"regency_province_id": 12,
+		"regency_name": "KAB. MANDAILING NATAL"
+	},
+	{
+		"regency_id": 1214,
+		"regency_province_id": 12,
+		"regency_name": "KAB. NIAS SELATAN"
+	},
+	{
+		"regency_id": 1215,
+		"regency_province_id": 12,
+		"regency_name": "KAB. PAKPAK BHARAT"
+	},
+	{
+		"regency_id": 1216,
+		"regency_province_id": 12,
+		"regency_name": "KAB. HUMBANG HASUNDUTAN"
+	},
+	{
+		"regency_id": 1217,
+		"regency_province_id": 12,
+		"regency_name": "KAB. SAMOSIR"
+	},
+	{
+		"regency_id": 1218,
+		"regency_province_id": 12,
+		"regency_name": "KAB. SERDANG BEDAGAI"
+	},
+	{
+		"regency_id": 1219,
+		"regency_province_id": 12,
+		"regency_name": "KAB. BATU BARA"
+	},
+	{
+		"regency_id": 1220,
+		"regency_province_id": 12,
+		"regency_name": "KAB. PADANG LAWAS UTARA"
+	},
+	{
+		"regency_id": 1221,
+		"regency_province_id": 12,
+		"regency_name": "KAB. PADANG LAWAS"
+	},
+	{
+		"regency_id": 1222,
+		"regency_province_id": 12,
+		"regency_name": "KAB. LABUHANBATU SELATAN"
+	},
+	{
+		"regency_id": 1223,
+		"regency_province_id": 12,
+		"regency_name": "KAB. LABUHANBATU UTARA"
+	},
+	{
+		"regency_id": 1224,
+		"regency_province_id": 12,
+		"regency_name": "KAB. NIAS UTARA"
+	},
+	{
+		"regency_id": 1225,
+		"regency_province_id": 12,
+		"regency_name": "KAB. NIAS BARAT"
+	},
+	{
+		"regency_id": 1271,
+		"regency_province_id": 12,
+		"regency_name": "KOTA MEDAN"
+	},
+	{
+		"regency_id": 1272,
+		"regency_province_id": 12,
+		"regency_name": "KOTA PEMATANGSIANTAR"
+	},
+	{
+		"regency_id": 1273,
+		"regency_province_id": 12,
+		"regency_name": "KOTA SIBOLGA"
+	},
+	{
+		"regency_id": 1274,
+		"regency_province_id": 12,
+		"regency_name": "KOTA TANJUNG BALAI"
+	},
+	{
+		"regency_id": 1275,
+		"regency_province_id": 12,
+		"regency_name": "KOTA BINJAI"
+	},
+	{
+		"regency_id": 1276,
+		"regency_province_id": 12,
+		"regency_name": "KOTA TEBING TINGGI"
+	},
+	{
+		"regency_id": 1277,
+		"regency_province_id": 12,
+		"regency_name": "KOTA PADANGSIDIMPUAN"
+	},
+	{
+		"regency_id": 1278,
+		"regency_province_id": 12,
+		"regency_name": "KOTA GUNUNGSITOLI"
+	},
+	{
+		"regency_id": 1301,
+		"regency_province_id": 13,
+		"regency_name": "KAB. PESISIR SELATAN"
+	},
+	{
+		"regency_id": 1302,
+		"regency_province_id": 13,
+		"regency_name": "KAB. SOLOK"
+	},
+	{
+		"regency_id": 1303,
+		"regency_province_id": 13,
+		"regency_name": "KAB. SIJUNJUNG"
+	},
+	{
+		"regency_id": 1304,
+		"regency_province_id": 13,
+		"regency_name": "KAB. TANAH DATAR"
+	},
+	{
+		"regency_id": 1305,
+		"regency_province_id": 13,
+		"regency_name": "KAB. PADANG PARIAMAN"
+	},
+	{
+		"regency_id": 1306,
+		"regency_province_id": 13,
+		"regency_name": "KAB. AGAM"
+	},
+	{
+		"regency_id": 1307,
+		"regency_province_id": 13,
+		"regency_name": "KAB. LIMA PULUH KOTA"
+	},
+	{
+		"regency_id": 1308,
+		"regency_province_id": 13,
+		"regency_name": "KAB. PASAMAN"
+	},
+	{
+		"regency_id": 1309,
+		"regency_province_id": 13,
+		"regency_name": "KAB. KEPULAUAN MENTAWAI"
+	},
+	{
+		"regency_id": 1310,
+		"regency_province_id": 13,
+		"regency_name": "KAB. DHARMASRAYA"
+	},
+	{
+		"regency_id": 1311,
+		"regency_province_id": 13,
+		"regency_name": "KAB. SOLOK SELATAN"
+	},
+	{
+		"regency_id": 1312,
+		"regency_province_id": 13,
+		"regency_name": "KAB. PASAMAN BARAT"
+	},
+	{
+		"regency_id": 1371,
+		"regency_province_id": 13,
+		"regency_name": "KOTA PADANG"
+	},
+	{
+		"regency_id": 1372,
+		"regency_province_id": 13,
+		"regency_name": "KOTA SOLOK"
+	},
+	{
+		"regency_id": 1373,
+		"regency_province_id": 13,
+		"regency_name": "KOTA SAWAHLUNTO"
+	},
+	{
+		"regency_id": 1374,
+		"regency_province_id": 13,
+		"regency_name": "KOTA PADANG PANJANG"
+	},
+	{
+		"regency_id": 1375,
+		"regency_province_id": 13,
+		"regency_name": "KOTA BUKITTINGGI"
+	},
+	{
+		"regency_id": 1376,
+		"regency_province_id": 13,
+		"regency_name": "KOTA PAYAKUMBUH"
+	},
+	{
+		"regency_id": 1377,
+		"regency_province_id": 13,
+		"regency_name": "KOTA PARIAMAN"
+	},
+	{
+		"regency_id": 1401,
+		"regency_province_id": 14,
+		"regency_name": "KAB. KAMPAR"
+	},
+	{
+		"regency_id": 1402,
+		"regency_province_id": 14,
+		"regency_name": "KAB. INDRAGIRI HULU"
+	},
+	{
+		"regency_id": 1403,
+		"regency_province_id": 14,
+		"regency_name": "KAB. BENGKALIS"
+	},
+	{
+		"regency_id": 1404,
+		"regency_province_id": 14,
+		"regency_name": "KAB. INDRAGIRI HILIR"
+	},
+	{
+		"regency_id": 1405,
+		"regency_province_id": 14,
+		"regency_name": "KAB. PELALAWAN"
+	},
+	{
+		"regency_id": 1406,
+		"regency_province_id": 14,
+		"regency_name": "KAB. ROKAN HULU"
+	},
+	{
+		"regency_id": 1407,
+		"regency_province_id": 14,
+		"regency_name": "KAB. ROKAN HILIR"
+	},
+	{
+		"regency_id": 1408,
+		"regency_province_id": 14,
+		"regency_name": "KAB. SIAK"
+	},
+	{
+		"regency_id": 1409,
+		"regency_province_id": 14,
+		"regency_name": "KAB. KUANTAN SINGINGI"
+	},
+	{
+		"regency_id": 1410,
+		"regency_province_id": 14,
+		"regency_name": "KAB. KEPULAUAN MERANTI"
+	},
+	{
+		"regency_id": 1471,
+		"regency_province_id": 14,
+		"regency_name": "KOTA PEKANBARU"
+	},
+	{
+		"regency_id": 1472,
+		"regency_province_id": 14,
+		"regency_name": "KOTA DUMAI"
+	},
+	{
+		"regency_id": 1501,
+		"regency_province_id": 15,
+		"regency_name": "KAB. KERINCI"
+	},
+	{
+		"regency_id": 1502,
+		"regency_province_id": 15,
+		"regency_name": "KAB. MERANGIN"
+	},
+	{
+		"regency_id": 1503,
+		"regency_province_id": 15,
+		"regency_name": "KAB. SAROLANGUN"
+	},
+	{
+		"regency_id": 1504,
+		"regency_province_id": 15,
+		"regency_name": "KAB. BATANGHARI"
+	},
+	{
+		"regency_id": 1505,
+		"regency_province_id": 15,
+		"regency_name": "KAB. MUARO JAMBI"
+	},
+	{
+		"regency_id": 1506,
+		"regency_province_id": 15,
+		"regency_name": "KAB. TANJUNG JABUNG BARAT"
+	},
+	{
+		"regency_id": 1507,
+		"regency_province_id": 15,
+		"regency_name": "KAB. TANJUNG JABUNG TIMUR"
+	},
+	{
+		"regency_id": 1508,
+		"regency_province_id": 15,
+		"regency_name": "KAB. BUNGO"
+	},
+	{
+		"regency_id": 1509,
+		"regency_province_id": 15,
+		"regency_name": "KAB. TEBO"
+	},
+	{
+		"regency_id": 1571,
+		"regency_province_id": 15,
+		"regency_name": "KOTA JAMBI"
+	},
+	{
+		"regency_id": 1572,
+		"regency_province_id": 15,
+		"regency_name": "KOTA SUNGAI PENUH"
+	},
+	{
+		"regency_id": 1601,
+		"regency_province_id": 16,
+		"regency_name": "KAB. OGAN KOMERING ULU"
+	},
+	{
+		"regency_id": 1602,
+		"regency_province_id": 16,
+		"regency_name": "KAB. OGAN KOMERING ILIR"
+	},
+	{
+		"regency_id": 1603,
+		"regency_province_id": 16,
+		"regency_name": "KAB. MUARA ENIM"
+	},
+	{
+		"regency_id": 1604,
+		"regency_province_id": 16,
+		"regency_name": "KAB. LAHAT"
+	},
+	{
+		"regency_id": 1605,
+		"regency_province_id": 16,
+		"regency_name": "KAB. MUSI RAWAS"
+	},
+	{
+		"regency_id": 1606,
+		"regency_province_id": 16,
+		"regency_name": "KAB. MUSI BANYUASIN"
+	},
+	{
+		"regency_id": 1607,
+		"regency_province_id": 16,
+		"regency_name": "KAB. BANYUASIN"
+	},
+	{
+		"regency_id": 1608,
+		"regency_province_id": 16,
+		"regency_name": "KAB. OGAN KOMERING ULU TIMUR"
+	},
+	{
+		"regency_id": 1609,
+		"regency_province_id": 16,
+		"regency_name": "KAB. OGAN KOMERING ULU SELATAN"
+	},
+	{
+		"regency_id": 1610,
+		"regency_province_id": 16,
+		"regency_name": "KAB. OGAN ILIR"
+	},
+	{
+		"regency_id": 1611,
+		"regency_province_id": 16,
+		"regency_name": "KAB. EMPAT LAWANG"
+	},
+	{
+		"regency_id": 1612,
+		"regency_province_id": 16,
+		"regency_name": "KAB. PENUKAL ABAB LEMATANG ILI"
+	},
+	{
+		"regency_id": 1613,
+		"regency_province_id": 16,
+		"regency_name": "KAB. MUSI RAWAS UTARA"
+	},
+	{
+		"regency_id": 1671,
+		"regency_province_id": 16,
+		"regency_name": "KOTA PALEMBANG"
+	},
+	{
+		"regency_id": 1672,
+		"regency_province_id": 16,
+		"regency_name": "KOTA PAGAR ALAM"
+	},
+	{
+		"regency_id": 1673,
+		"regency_province_id": 16,
+		"regency_name": "KOTA LUBUK LINGGAU"
+	},
+	{
+		"regency_id": 1674,
+		"regency_province_id": 16,
+		"regency_name": "KOTA PRABUMULIH"
+	},
+	{
+		"regency_id": 1701,
+		"regency_province_id": 17,
+		"regency_name": "KAB. BENGKULU SELATAN"
+	},
+	{
+		"regency_id": 1702,
+		"regency_province_id": 17,
+		"regency_name": "KAB. REJANG LEBONG"
+	},
+	{
+		"regency_id": 1703,
+		"regency_province_id": 17,
+		"regency_name": "KAB. BENGKULU UTARA"
+	},
+	{
+		"regency_id": 1704,
+		"regency_province_id": 17,
+		"regency_name": "KAB. KAUR"
+	},
+	{
+		"regency_id": 1705,
+		"regency_province_id": 17,
+		"regency_name": "KAB. SELUMA"
+	},
+	{
+		"regency_id": 1706,
+		"regency_province_id": 17,
+		"regency_name": "KAB. MUKO MUKO"
+	},
+	{
+		"regency_id": 1707,
+		"regency_province_id": 17,
+		"regency_name": "KAB. LEBONG"
+	},
+	{
+		"regency_id": 1708,
+		"regency_province_id": 17,
+		"regency_name": "KAB. KEPAHIANG"
+	},
+	{
+		"regency_id": 1709,
+		"regency_province_id": 17,
+		"regency_name": "KAB. BENGKULU TENGAH"
+	},
+	{
+		"regency_id": 1771,
+		"regency_province_id": 17,
+		"regency_name": "KOTA BENGKULU"
+	},
+	{
+		"regency_id": 1801,
+		"regency_province_id": 18,
+		"regency_name": "KAB. LAMPUNG SELATAN"
+	},
+	{
+		"regency_id": 1802,
+		"regency_province_id": 18,
+		"regency_name": "KAB. LAMPUNG TENGAH"
+	},
+	{
+		"regency_id": 1803,
+		"regency_province_id": 18,
+		"regency_name": "KAB. LAMPUNG UTARA"
+	},
+	{
+		"regency_id": 1804,
+		"regency_province_id": 18,
+		"regency_name": "KAB. LAMPUNG BARAT"
+	},
+	{
+		"regency_id": 1805,
+		"regency_province_id": 18,
+		"regency_name": "KAB. TULANG BAWANG"
+	},
+	{
+		"regency_id": 1806,
+		"regency_province_id": 18,
+		"regency_name": "KAB. TANGGAMUS"
+	},
+	{
+		"regency_id": 1807,
+		"regency_province_id": 18,
+		"regency_name": "KAB. LAMPUNG TIMUR"
+	},
+	{
+		"regency_id": 1808,
+		"regency_province_id": 18,
+		"regency_name": "KAB. WAY KANAN"
+	},
+	{
+		"regency_id": 1809,
+		"regency_province_id": 18,
+		"regency_name": "KAB. PESAWARAN"
+	},
+	{
+		"regency_id": 1810,
+		"regency_province_id": 18,
+		"regency_name": "KAB. PRINGSEWU"
+	},
+	{
+		"regency_id": 1811,
+		"regency_province_id": 18,
+		"regency_name": "KAB. MESUJI"
+	},
+	{
+		"regency_id": 1812,
+		"regency_province_id": 18,
+		"regency_name": "KAB. TULANG BAWANG BARAT"
+	},
+	{
+		"regency_id": 1813,
+		"regency_province_id": 18,
+		"regency_name": "KAB. PESISIR BARAT"
+	},
+	{
+		"regency_id": 1871,
+		"regency_province_id": 18,
+		"regency_name": "KOTA BANDAR LAMPUNG"
+	},
+	{
+		"regency_id": 1872,
+		"regency_province_id": 18,
+		"regency_name": "KOTA METRO"
+	},
+	{
+		"regency_id": 1901,
+		"regency_province_id": 19,
+		"regency_name": "KAB. BANGKA"
+	},
+	{
+		"regency_id": 1902,
+		"regency_province_id": 19,
+		"regency_name": "KAB. BELITUNG"
+	},
+	{
+		"regency_id": 1903,
+		"regency_province_id": 19,
+		"regency_name": "KAB. BANGKA SELATAN"
+	},
+	{
+		"regency_id": 1904,
+		"regency_province_id": 19,
+		"regency_name": "KAB. BANGKA TENGAH"
+	},
+	{
+		"regency_id": 1905,
+		"regency_province_id": 19,
+		"regency_name": "KAB. BANGKA BARAT"
+	},
+	{
+		"regency_id": 1906,
+		"regency_province_id": 19,
+		"regency_name": "KAB. BELITUNG TIMUR"
+	},
+	{
+		"regency_id": 1971,
+		"regency_province_id": 19,
+		"regency_name": "KOTA PANGKAL PINANG"
+	},
+	{
+		"regency_id": 2101,
+		"regency_province_id": 21,
+		"regency_name": "KAB. BINTAN"
+	},
+	{
+		"regency_id": 2102,
+		"regency_province_id": 21,
+		"regency_name": "KAB. KARIMUN"
+	},
+	{
+		"regency_id": 2103,
+		"regency_province_id": 21,
+		"regency_name": "KAB. NATUNA"
+	},
+	{
+		"regency_id": 2104,
+		"regency_province_id": 21,
+		"regency_name": "KAB. LINGGA"
+	},
+	{
+		"regency_id": 2105,
+		"regency_province_id": 21,
+		"regency_name": "KAB. KEPULAUAN ANAMBAS"
+	},
+	{
+		"regency_id": 2171,
+		"regency_province_id": 21,
+		"regency_name": "KOTA BATAM"
+	},
+	{
+		"regency_id": 2172,
+		"regency_province_id": 21,
+		"regency_name": "KOTA TANJUNG PINANG"
+	},
+	{
+		"regency_id": 3101,
+		"regency_province_id": 31,
+		"regency_name": "KAB. ADM. KEP. SERIBU"
+	},
+	{
+		"regency_id": 3171,
+		"regency_province_id": 31,
+		"regency_name": "KOTA ADM. JAKARTA PUSAT"
+	},
+	{
+		"regency_id": 3172,
+		"regency_province_id": 31,
+		"regency_name": "KOTA ADM. JAKARTA UTARA"
+	},
+	{
+		"regency_id": 3173,
+		"regency_province_id": 31,
+		"regency_name": "KOTA ADM. JAKARTA BARAT"
+	},
+	{
+		"regency_id": 3174,
+		"regency_province_id": 31,
+		"regency_name": "KOTA ADM. JAKARTA SELATAN"
+	},
+	{
+		"regency_id": 3175,
+		"regency_province_id": 31,
+		"regency_name": "KOTA ADM. JAKARTA TIMUR"
+	},
+	{
+		"regency_id": 3201,
+		"regency_province_id": 32,
+		"regency_name": "KAB. BOGOR"
+	},
+	{
+		"regency_id": 3202,
+		"regency_province_id": 32,
+		"regency_name": "KAB. SUKABUMI"
+	},
+	{
+		"regency_id": 3203,
+		"regency_province_id": 32,
+		"regency_name": "KAB. CIANJUR"
+	},
+	{
+		"regency_id": 3204,
+		"regency_province_id": 32,
+		"regency_name": "KAB. BANDUNG"
+	},
+	{
+		"regency_id": 3205,
+		"regency_province_id": 32,
+		"regency_name": "KAB. GARUT"
+	},
+	{
+		"regency_id": 3206,
+		"regency_province_id": 32,
+		"regency_name": "KAB. TASIKMALAYA"
+	},
+	{
+		"regency_id": 3207,
+		"regency_province_id": 32,
+		"regency_name": "KAB. CIAMIS"
+	},
+	{
+		"regency_id": 3208,
+		"regency_province_id": 32,
+		"regency_name": "KAB. KUNINGAN"
+	},
+	{
+		"regency_id": 3209,
+		"regency_province_id": 32,
+		"regency_name": "KAB. CIREBON"
+	},
+	{
+		"regency_id": 3210,
+		"regency_province_id": 32,
+		"regency_name": "KAB. MAJALENGKA"
+	},
+	{
+		"regency_id": 3211,
+		"regency_province_id": 32,
+		"regency_name": "KAB. SUMEDANG"
+	},
+	{
+		"regency_id": 3212,
+		"regency_province_id": 32,
+		"regency_name": "KAB. INDRAMAYU"
+	},
+	{
+		"regency_id": 3213,
+		"regency_province_id": 32,
+		"regency_name": "KAB. SUBANG"
+	},
+	{
+		"regency_id": 3214,
+		"regency_province_id": 32,
+		"regency_name": "KAB. PURWAKARTA"
+	},
+	{
+		"regency_id": 3215,
+		"regency_province_id": 32,
+		"regency_name": "KAB. KARAWANG"
+	},
+	{
+		"regency_id": 3216,
+		"regency_province_id": 32,
+		"regency_name": "KAB. BEKASI"
+	},
+	{
+		"regency_id": 3217,
+		"regency_province_id": 32,
+		"regency_name": "KAB. BANDUNG BARAT"
+	},
+	{
+		"regency_id": 3218,
+		"regency_province_id": 32,
+		"regency_name": "KAB. PANGANDARAN"
+	},
+	{
+		"regency_id": 3271,
+		"regency_province_id": 32,
+		"regency_name": "KOTA BOGOR"
+	},
+	{
+		"regency_id": 3272,
+		"regency_province_id": 32,
+		"regency_name": "KOTA SUKABUMI"
+	},
+	{
+		"regency_id": 3273,
+		"regency_province_id": 32,
+		"regency_name": "KOTA BANDUNG"
+	},
+	{
+		"regency_id": 3274,
+		"regency_province_id": 32,
+		"regency_name": "KOTA CIREBON"
+	},
+	{
+		"regency_id": 3275,
+		"regency_province_id": 32,
+		"regency_name": "KOTA BEKASI"
+	},
+	{
+		"regency_id": 3276,
+		"regency_province_id": 32,
+		"regency_name": "KOTA DEPOK"
+	},
+	{
+		"regency_id": 3277,
+		"regency_province_id": 32,
+		"regency_name": "KOTA CIMAHI"
+	},
+	{
+		"regency_id": 3278,
+		"regency_province_id": 32,
+		"regency_name": "KOTA TASIKMALAYA"
+	},
+	{
+		"regency_id": 3279,
+		"regency_province_id": 32,
+		"regency_name": "KOTA BANJAR"
+	},
+	{
+		"regency_id": 3301,
+		"regency_province_id": 33,
+		"regency_name": "KAB. CILACAP"
+	},
+	{
+		"regency_id": 3302,
+		"regency_province_id": 33,
+		"regency_name": "KAB. BANYUMAS"
+	},
+	{
+		"regency_id": 3303,
+		"regency_province_id": 33,
+		"regency_name": "KAB. PURBALINGGA"
+	},
+	{
+		"regency_id": 3304,
+		"regency_province_id": 33,
+		"regency_name": "KAB. BANJARNEGARA"
+	},
+	{
+		"regency_id": 3305,
+		"regency_province_id": 33,
+		"regency_name": "KAB. KEBUMEN"
+	},
+	{
+		"regency_id": 3306,
+		"regency_province_id": 33,
+		"regency_name": "KAB. PURWOREJO"
+	},
+	{
+		"regency_id": 3307,
+		"regency_province_id": 33,
+		"regency_name": "KAB. WONOSOBO"
+	},
+	{
+		"regency_id": 3308,
+		"regency_province_id": 33,
+		"regency_name": "KAB. MAGELANG"
+	},
+	{
+		"regency_id": 3309,
+		"regency_province_id": 33,
+		"regency_name": "KAB. BOYOLALI"
+	},
+	{
+		"regency_id": 3310,
+		"regency_province_id": 33,
+		"regency_name": "KAB. KLATEN"
+	},
+	{
+		"regency_id": 3311,
+		"regency_province_id": 33,
+		"regency_name": "KAB. SUKOHARJO"
+	},
+	{
+		"regency_id": 3312,
+		"regency_province_id": 33,
+		"regency_name": "KAB. WONOGIRI"
+	},
+	{
+		"regency_id": 3313,
+		"regency_province_id": 33,
+		"regency_name": "KAB. KARANGANYAR"
+	},
+	{
+		"regency_id": 3314,
+		"regency_province_id": 33,
+		"regency_name": "KAB. SRAGEN"
+	},
+	{
+		"regency_id": 3315,
+		"regency_province_id": 33,
+		"regency_name": "KAB. GROBOGAN"
+	},
+	{
+		"regency_id": 3316,
+		"regency_province_id": 33,
+		"regency_name": "KAB. BLORA"
+	},
+	{
+		"regency_id": 3317,
+		"regency_province_id": 33,
+		"regency_name": "KAB. REMBANG"
+	},
+	{
+		"regency_id": 3318,
+		"regency_province_id": 33,
+		"regency_name": "KAB. PATI"
+	},
+	{
+		"regency_id": 3319,
+		"regency_province_id": 33,
+		"regency_name": "KAB. KUDUS"
+	},
+	{
+		"regency_id": 3320,
+		"regency_province_id": 33,
+		"regency_name": "KAB. JEPARA"
+	},
+	{
+		"regency_id": 3321,
+		"regency_province_id": 33,
+		"regency_name": "KAB. DEMAK"
+	},
+	{
+		"regency_id": 3322,
+		"regency_province_id": 33,
+		"regency_name": "KAB. SEMARANG"
+	},
+	{
+		"regency_id": 3323,
+		"regency_province_id": 33,
+		"regency_name": "KAB. TEMANGGUNG"
+	},
+	{
+		"regency_id": 3324,
+		"regency_province_id": 33,
+		"regency_name": "KAB. KENDAL"
+	},
+	{
+		"regency_id": 3325,
+		"regency_province_id": 33,
+		"regency_name": "KAB. BATANG"
+	},
+	{
+		"regency_id": 3326,
+		"regency_province_id": 33,
+		"regency_name": "KAB. PEKALONGAN"
+	},
+	{
+		"regency_id": 3327,
+		"regency_province_id": 33,
+		"regency_name": "KAB. PEMALANG"
+	},
+	{
+		"regency_id": 3328,
+		"regency_province_id": 33,
+		"regency_name": "KAB. TEGAL"
+	},
+	{
+		"regency_id": 3329,
+		"regency_province_id": 33,
+		"regency_name": "KAB. BREBES"
+	},
+	{
+		"regency_id": 3371,
+		"regency_province_id": 33,
+		"regency_name": "KOTA MAGELANG"
+	},
+	{
+		"regency_id": 3372,
+		"regency_province_id": 33,
+		"regency_name": "KOTA SURAKARTA"
+	},
+	{
+		"regency_id": 3373,
+		"regency_province_id": 33,
+		"regency_name": "KOTA SALATIGA"
+	},
+	{
+		"regency_id": 3374,
+		"regency_province_id": 33,
+		"regency_name": "KOTA SEMARANG"
+	},
+	{
+		"regency_id": 3375,
+		"regency_province_id": 33,
+		"regency_name": "KOTA PEKALONGAN"
+	},
+	{
+		"regency_id": 3376,
+		"regency_province_id": 33,
+		"regency_name": "KOTA TEGAL"
+	},
+	{
+		"regency_id": 3401,
+		"regency_province_id": 34,
+		"regency_name": "KAB. KULON PROGO"
+	},
+	{
+		"regency_id": 3402,
+		"regency_province_id": 34,
+		"regency_name": "KAB. BANTUL"
+	},
+	{
+		"regency_id": 3403,
+		"regency_province_id": 34,
+		"regency_name": "KAB. GUNUNGKIDUL"
+	},
+	{
+		"regency_id": 3404,
+		"regency_province_id": 34,
+		"regency_name": "KAB. SLEMAN"
+	},
+	{
+		"regency_id": 3471,
+		"regency_province_id": 34,
+		"regency_name": "KOTA YOGYAKARTA"
+	},
+	{
+		"regency_id": 3501,
+		"regency_province_id": 35,
+		"regency_name": "KAB. PACITAN"
+	},
+	{
+		"regency_id": 3502,
+		"regency_province_id": 35,
+		"regency_name": "KAB. PONOROGO"
+	},
+	{
+		"regency_id": 3503,
+		"regency_province_id": 35,
+		"regency_name": "KAB. TRENGGALEK"
+	},
+	{
+		"regency_id": 3504,
+		"regency_province_id": 35,
+		"regency_name": "KAB. TULUNGAGUNG"
+	},
+	{
+		"regency_id": 3505,
+		"regency_province_id": 35,
+		"regency_name": "KAB. BLITAR"
+	},
+	{
+		"regency_id": 3506,
+		"regency_province_id": 35,
+		"regency_name": "KAB. KEDIRI"
+	},
+	{
+		"regency_id": 3507,
+		"regency_province_id": 35,
+		"regency_name": "KAB. MALANG"
+	},
+	{
+		"regency_id": 3508,
+		"regency_province_id": 35,
+		"regency_name": "KAB. LUMAJANG"
+	},
+	{
+		"regency_id": 3509,
+		"regency_province_id": 35,
+		"regency_name": "KAB. JEMBER"
+	},
+	{
+		"regency_id": 3510,
+		"regency_province_id": 35,
+		"regency_name": "KAB. BANYUWANGI"
+	},
+	{
+		"regency_id": 3511,
+		"regency_province_id": 35,
+		"regency_name": "KAB. BONDOWOSO"
+	},
+	{
+		"regency_id": 3512,
+		"regency_province_id": 35,
+		"regency_name": "KAB. SITUBONDO"
+	},
+	{
+		"regency_id": 3513,
+		"regency_province_id": 35,
+		"regency_name": "KAB. PROBOLINGGO"
+	},
+	{
+		"regency_id": 3514,
+		"regency_province_id": 35,
+		"regency_name": "KAB. PASURUAN"
+	},
+	{
+		"regency_id": 3515,
+		"regency_province_id": 35,
+		"regency_name": "KAB. SIDOARJO"
+	},
+	{
+		"regency_id": 3516,
+		"regency_province_id": 35,
+		"regency_name": "KAB. MOJOKERTO"
+	},
+	{
+		"regency_id": 3517,
+		"regency_province_id": 35,
+		"regency_name": "KAB. JOMBANG"
+	},
+	{
+		"regency_id": 3518,
+		"regency_province_id": 35,
+		"regency_name": "KAB. NGANJUK"
+	},
+	{
+		"regency_id": 3519,
+		"regency_province_id": 35,
+		"regency_name": "KAB. MADIUN"
+	},
+	{
+		"regency_id": 3520,
+		"regency_province_id": 35,
+		"regency_name": "KAB. MAGETAN"
+	},
+	{
+		"regency_id": 3521,
+		"regency_province_id": 35,
+		"regency_name": "KAB. NGAWI"
+	},
+	{
+		"regency_id": 3522,
+		"regency_province_id": 35,
+		"regency_name": "KAB. BOJONEGORO"
+	},
+	{
+		"regency_id": 3523,
+		"regency_province_id": 35,
+		"regency_name": "KAB. TUBAN"
+	},
+	{
+		"regency_id": 3524,
+		"regency_province_id": 35,
+		"regency_name": "KAB. LAMONGAN"
+	},
+	{
+		"regency_id": 3525,
+		"regency_province_id": 35,
+		"regency_name": "KAB. GRESIK"
+	},
+	{
+		"regency_id": 3526,
+		"regency_province_id": 35,
+		"regency_name": "KAB. BANGKALAN"
+	},
+	{
+		"regency_id": 3527,
+		"regency_province_id": 35,
+		"regency_name": "KAB. SAMPANG"
+	},
+	{
+		"regency_id": 3528,
+		"regency_province_id": 35,
+		"regency_name": "KAB. PAMEKASAN"
+	},
+	{
+		"regency_id": 3529,
+		"regency_province_id": 35,
+		"regency_name": "KAB. SUMENEP"
+	},
+	{
+		"regency_id": 3571,
+		"regency_province_id": 35,
+		"regency_name": "KOTA KEDIRI"
+	},
+	{
+		"regency_id": 3572,
+		"regency_province_id": 35,
+		"regency_name": "KOTA BLITAR"
+	},
+	{
+		"regency_id": 3573,
+		"regency_province_id": 35,
+		"regency_name": "KOTA MALANG"
+	},
+	{
+		"regency_id": 3574,
+		"regency_province_id": 35,
+		"regency_name": "KOTA PROBOLINGGO"
+	},
+	{
+		"regency_id": 3575,
+		"regency_province_id": 35,
+		"regency_name": "KOTA PASURUAN"
+	},
+	{
+		"regency_id": 3576,
+		"regency_province_id": 35,
+		"regency_name": "KOTA MOJOKERTO"
+	},
+	{
+		"regency_id": 3577,
+		"regency_province_id": 35,
+		"regency_name": "KOTA MADIUN"
+	},
+	{
+		"regency_id": 3578,
+		"regency_province_id": 35,
+		"regency_name": "KOTA SURABAYA"
+	},
+	{
+		"regency_id": 3579,
+		"regency_province_id": 35,
+		"regency_name": "KOTA BATU"
+	},
+	{
+		"regency_id": 3601,
+		"regency_province_id": 36,
+		"regency_name": "KAB. PANDEGLANG"
+	},
+	{
+		"regency_id": 3602,
+		"regency_province_id": 36,
+		"regency_name": "KAB. LEBAK"
+	},
+	{
+		"regency_id": 3603,
+		"regency_province_id": 36,
+		"regency_name": "KAB. TANGERANG"
+	},
+	{
+		"regency_id": 3604,
+		"regency_province_id": 36,
+		"regency_name": "KAB. SERANG"
+	},
+	{
+		"regency_id": 3671,
+		"regency_province_id": 36,
+		"regency_name": "KOTA TANGERANG"
+	},
+	{
+		"regency_id": 3672,
+		"regency_province_id": 36,
+		"regency_name": "KOTA CILEGON"
+	},
+	{
+		"regency_id": 3673,
+		"regency_province_id": 36,
+		"regency_name": "KOTA SERANG"
+	},
+	{
+		"regency_id": 3674,
+		"regency_province_id": 36,
+		"regency_name": "KOTA TANGERANG SELATAN"
+	},
+	{
+		"regency_id": 5101,
+		"regency_province_id": 51,
+		"regency_name": "KAB. JEMBRANA"
+	},
+	{
+		"regency_id": 5102,
+		"regency_province_id": 51,
+		"regency_name": "KAB. TABANAN"
+	},
+	{
+		"regency_id": 5103,
+		"regency_province_id": 51,
+		"regency_name": "KAB. BADUNG"
+	},
+	{
+		"regency_id": 5104,
+		"regency_province_id": 51,
+		"regency_name": "KAB. GIANYAR"
+	},
+	{
+		"regency_id": 5105,
+		"regency_province_id": 51,
+		"regency_name": "KAB. KLUNGKUNG"
+	},
+	{
+		"regency_id": 5106,
+		"regency_province_id": 51,
+		"regency_name": "KAB. BANGLI"
+	},
+	{
+		"regency_id": 5107,
+		"regency_province_id": 51,
+		"regency_name": "KAB. KARANGASEM"
+	},
+	{
+		"regency_id": 5108,
+		"regency_province_id": 51,
+		"regency_name": "KAB. BULELENG"
+	},
+	{
+		"regency_id": 5171,
+		"regency_province_id": 51,
+		"regency_name": "KOTA DENPASAR"
+	},
+	{
+		"regency_id": 5201,
+		"regency_province_id": 52,
+		"regency_name": "KAB. LOMBOK BARAT"
+	},
+	{
+		"regency_id": 5202,
+		"regency_province_id": 52,
+		"regency_name": "KAB. LOMBOK TENGAH"
+	},
+	{
+		"regency_id": 5203,
+		"regency_province_id": 52,
+		"regency_name": "KAB. LOMBOK TIMUR"
+	},
+	{
+		"regency_id": 5204,
+		"regency_province_id": 52,
+		"regency_name": "KAB. SUMBAWA"
+	},
+	{
+		"regency_id": 5205,
+		"regency_province_id": 52,
+		"regency_name": "KAB. DOMPU"
+	},
+	{
+		"regency_id": 5206,
+		"regency_province_id": 52,
+		"regency_name": "KAB. BIMA"
+	},
+	{
+		"regency_id": 5207,
+		"regency_province_id": 52,
+		"regency_name": "KAB. SUMBAWA BARAT"
+	},
+	{
+		"regency_id": 5208,
+		"regency_province_id": 52,
+		"regency_name": "KAB. LOMBOK UTARA"
+	},
+	{
+		"regency_id": 5271,
+		"regency_province_id": 52,
+		"regency_name": "KOTA MATARAM"
+	},
+	{
+		"regency_id": 5272,
+		"regency_province_id": 52,
+		"regency_name": "KOTA BIMA"
+	},
+	{
+		"regency_id": 5301,
+		"regency_province_id": 53,
+		"regency_name": "KAB. KUPANG"
+	},
+	{
+		"regency_id": 5302,
+		"regency_province_id": 53,
+		"regency_name": "KAB TIMOR TENGAH SELATAN"
+	},
+	{
+		"regency_id": 5303,
+		"regency_province_id": 53,
+		"regency_name": "KAB. TIMOR TENGAH UTARA"
+	},
+	{
+		"regency_id": 5304,
+		"regency_province_id": 53,
+		"regency_name": "KAB. BELU"
+	},
+	{
+		"regency_id": 5305,
+		"regency_province_id": 53,
+		"regency_name": "KAB. ALOR"
+	},
+	{
+		"regency_id": 5306,
+		"regency_province_id": 53,
+		"regency_name": "KAB. FLORES TIMUR"
+	},
+	{
+		"regency_id": 5307,
+		"regency_province_id": 53,
+		"regency_name": "KAB. SIKKA"
+	},
+	{
+		"regency_id": 5308,
+		"regency_province_id": 53,
+		"regency_name": "KAB. ENDE"
+	},
+	{
+		"regency_id": 5309,
+		"regency_province_id": 53,
+		"regency_name": "KAB. NGADA"
+	},
+	{
+		"regency_id": 5310,
+		"regency_province_id": 53,
+		"regency_name": "KAB. MANGGARAI"
+	},
+	{
+		"regency_id": 5311,
+		"regency_province_id": 53,
+		"regency_name": "KAB. SUMBA TIMUR"
+	},
+	{
+		"regency_id": 5312,
+		"regency_province_id": 53,
+		"regency_name": "KAB. SUMBA BARAT"
+	},
+	{
+		"regency_id": 5313,
+		"regency_province_id": 53,
+		"regency_name": "KAB. LEMBATA"
+	},
+	{
+		"regency_id": 5314,
+		"regency_province_id": 53,
+		"regency_name": "KAB. ROTE NDAO"
+	},
+	{
+		"regency_id": 5315,
+		"regency_province_id": 53,
+		"regency_name": "KAB. MANGGARAI BARAT"
+	},
+	{
+		"regency_id": 5316,
+		"regency_province_id": 53,
+		"regency_name": "KAB. NAGEKEO"
+	},
+	{
+		"regency_id": 5317,
+		"regency_province_id": 53,
+		"regency_name": "KAB. SUMBA TENGAH"
+	},
+	{
+		"regency_id": 5318,
+		"regency_province_id": 53,
+		"regency_name": "KAB. SUMBA BARAT DAYA"
+	},
+	{
+		"regency_id": 5319,
+		"regency_province_id": 53,
+		"regency_name": "KAB. MANGGARAI TIMUR"
+	},
+	{
+		"regency_id": 5320,
+		"regency_province_id": 53,
+		"regency_name": "KAB. SABU RAIJUA"
+	},
+	{
+		"regency_id": 5321,
+		"regency_province_id": 53,
+		"regency_name": "KAB. MALAKA"
+	},
+	{
+		"regency_id": 5371,
+		"regency_province_id": 53,
+		"regency_name": "KOTA KUPANG"
+	},
+	{
+		"regency_id": 6101,
+		"regency_province_id": 61,
+		"regency_name": "KAB. SAMBAS"
+	},
+	{
+		"regency_id": 6102,
+		"regency_province_id": 61,
+		"regency_name": "KAB. MEMPAWAH"
+	},
+	{
+		"regency_id": 6103,
+		"regency_province_id": 61,
+		"regency_name": "KAB. SANGGAU"
+	},
+	{
+		"regency_id": 6104,
+		"regency_province_id": 61,
+		"regency_name": "KAB. KETAPANG"
+	},
+	{
+		"regency_id": 6105,
+		"regency_province_id": 61,
+		"regency_name": "KAB. SINTANG"
+	},
+	{
+		"regency_id": 6106,
+		"regency_province_id": 61,
+		"regency_name": "KAB. KAPUAS HULU"
+	},
+	{
+		"regency_id": 6107,
+		"regency_province_id": 61,
+		"regency_name": "KAB. BENGKAYANG"
+	},
+	{
+		"regency_id": 6108,
+		"regency_province_id": 61,
+		"regency_name": "KAB. LANDAK"
+	},
+	{
+		"regency_id": 6109,
+		"regency_province_id": 61,
+		"regency_name": "KAB. SEKADAU"
+	},
+	{
+		"regency_id": 6110,
+		"regency_province_id": 61,
+		"regency_name": "KAB. MELAWI"
+	},
+	{
+		"regency_id": 6111,
+		"regency_province_id": 61,
+		"regency_name": "KAB. KAYONG UTARA"
+	},
+	{
+		"regency_id": 6112,
+		"regency_province_id": 61,
+		"regency_name": "KAB. KUBU RAYA"
+	},
+	{
+		"regency_id": 6171,
+		"regency_province_id": 61,
+		"regency_name": "KOTA PONTIANAK"
+	},
+	{
+		"regency_id": 6172,
+		"regency_province_id": 61,
+		"regency_name": "KOTA SINGKAWANG"
+	},
+	{
+		"regency_id": 6201,
+		"regency_province_id": 62,
+		"regency_name": "KAB. KOTAWARINGIN BARAT"
+	},
+	{
+		"regency_id": 6202,
+		"regency_province_id": 62,
+		"regency_name": "KAB. KOTAWARINGIN TIMUR"
+	},
+	{
+		"regency_id": 6203,
+		"regency_province_id": 62,
+		"regency_name": "KAB. KAPUAS"
+	},
+	{
+		"regency_id": 6204,
+		"regency_province_id": 62,
+		"regency_name": "KAB. BARITO SELATAN"
+	},
+	{
+		"regency_id": 6205,
+		"regency_province_id": 62,
+		"regency_name": "KAB. BARITO UTARA"
+	},
+	{
+		"regency_id": 6206,
+		"regency_province_id": 62,
+		"regency_name": "KAB. KATINGAN"
+	},
+	{
+		"regency_id": 6207,
+		"regency_province_id": 62,
+		"regency_name": "KAB. SERUYAN"
+	},
+	{
+		"regency_id": 6208,
+		"regency_province_id": 62,
+		"regency_name": "KAB. SUKAMARA"
+	},
+	{
+		"regency_id": 6209,
+		"regency_province_id": 62,
+		"regency_name": "KAB. LAMANDAU"
+	},
+	{
+		"regency_id": 6210,
+		"regency_province_id": 62,
+		"regency_name": "KAB. GUNUNG MAS"
+	},
+	{
+		"regency_id": 6211,
+		"regency_province_id": 62,
+		"regency_name": "KAB. PULANG PISAU"
+	},
+	{
+		"regency_id": 6212,
+		"regency_province_id": 62,
+		"regency_name": "KAB. MURUNG RAYA"
+	},
+	{
+		"regency_id": 6213,
+		"regency_province_id": 62,
+		"regency_name": "KAB. BARITO TIMUR"
+	},
+	{
+		"regency_id": 6271,
+		"regency_province_id": 62,
+		"regency_name": "KOTA PALANGKARAYA"
+	},
+	{
+		"regency_id": 6301,
+		"regency_province_id": 63,
+		"regency_name": "KAB. TANAH LAUT"
+	},
+	{
+		"regency_id": 6302,
+		"regency_province_id": 63,
+		"regency_name": "KAB. KOTABARU"
+	},
+	{
+		"regency_id": 6303,
+		"regency_province_id": 63,
+		"regency_name": "KAB. BANJAR"
+	},
+	{
+		"regency_id": 6304,
+		"regency_province_id": 63,
+		"regency_name": "KAB. BARITO KUALA"
+	},
+	{
+		"regency_id": 6305,
+		"regency_province_id": 63,
+		"regency_name": "KAB. TAPIN"
+	},
+	{
+		"regency_id": 6306,
+		"regency_province_id": 63,
+		"regency_name": "KAB. HULU SUNGAI SELATAN"
+	},
+	{
+		"regency_id": 6307,
+		"regency_province_id": 63,
+		"regency_name": "KAB. HULU SUNGAI TENGAH"
+	},
+	{
+		"regency_id": 6308,
+		"regency_province_id": 63,
+		"regency_name": "KAB. HULU SUNGAI UTARA"
+	},
+	{
+		"regency_id": 6309,
+		"regency_province_id": 63,
+		"regency_name": "KAB. TABALONG"
+	},
+	{
+		"regency_id": 6310,
+		"regency_province_id": 63,
+		"regency_name": "KAB. TANAH BUMBU"
+	},
+	{
+		"regency_id": 6311,
+		"regency_province_id": 63,
+		"regency_name": "KAB. BALANGAN"
+	},
+	{
+		"regency_id": 6371,
+		"regency_province_id": 63,
+		"regency_name": "KOTA BANJARMASIN"
+	},
+	{
+		"regency_id": 6372,
+		"regency_province_id": 63,
+		"regency_name": "KOTA BANJARBARU"
+	},
+	{
+		"regency_id": 6401,
+		"regency_province_id": 64,
+		"regency_name": "KAB. PASER"
+	},
+	{
+		"regency_id": 6402,
+		"regency_province_id": 64,
+		"regency_name": "KAB. KUTAI KARTANEGARA"
+	},
+	{
+		"regency_id": 6403,
+		"regency_province_id": 64,
+		"regency_name": "KAB. BERAU"
+	},
+	{
+		"regency_id": 6407,
+		"regency_province_id": 64,
+		"regency_name": "KAB. KUTAI BARAT"
+	},
+	{
+		"regency_id": 6408,
+		"regency_province_id": 64,
+		"regency_name": "KAB. KUTAI TIMUR"
+	},
+	{
+		"regency_id": 6409,
+		"regency_province_id": 64,
+		"regency_name": "KAB. PENAJAM PASER UTARA"
+	},
+	{
+		"regency_id": 6411,
+		"regency_province_id": 64,
+		"regency_name": "KAB. MAHAKAM ULU"
+	},
+	{
+		"regency_id": 6471,
+		"regency_province_id": 64,
+		"regency_name": "KOTA BALIKPAPAN"
+	},
+	{
+		"regency_id": 6472,
+		"regency_province_id": 64,
+		"regency_name": "KOTA SAMARINDA"
+	},
+	{
+		"regency_id": 6474,
+		"regency_province_id": 64,
+		"regency_name": "KOTA BONTANG"
+	},
+	{
+		"regency_id": 6501,
+		"regency_province_id": 65,
+		"regency_name": "KAB. BULUNGAN"
+	},
+	{
+		"regency_id": 6502,
+		"regency_province_id": 65,
+		"regency_name": "KAB. MALINAU"
+	},
+	{
+		"regency_id": 6503,
+		"regency_province_id": 65,
+		"regency_name": "KAB. NUNUKAN"
+	},
+	{
+		"regency_id": 6504,
+		"regency_province_id": 65,
+		"regency_name": "KAB. TANA TIDUNG"
+	},
+	{
+		"regency_id": 6571,
+		"regency_province_id": 65,
+		"regency_name": "KOTA TARAKAN"
+	},
+	{
+		"regency_id": 7101,
+		"regency_province_id": 71,
+		"regency_name": "KAB. BOLAANG MONGONDOW"
+	},
+	{
+		"regency_id": 7102,
+		"regency_province_id": 71,
+		"regency_name": "KAB. MINAHASA"
+	},
+	{
+		"regency_id": 7103,
+		"regency_province_id": 71,
+		"regency_name": "KAB. KEPULAUAN SANGIHE"
+	},
+	{
+		"regency_id": 7104,
+		"regency_province_id": 71,
+		"regency_name": "KAB. KEPULAUAN TALAUD"
+	},
+	{
+		"regency_id": 7105,
+		"regency_province_id": 71,
+		"regency_name": "KAB. MINAHASA SELATAN"
+	},
+	{
+		"regency_id": 7106,
+		"regency_province_id": 71,
+		"regency_name": "KAB. MINAHASA UTARA"
+	},
+	{
+		"regency_id": 7107,
+		"regency_province_id": 71,
+		"regency_name": "KAB. MINAHASA TENGGARA"
+	},
+	{
+		"regency_id": 7108,
+		"regency_province_id": 71,
+		"regency_name": "KAB. BOLAANG MONGONDOW UTARA"
+	},
+	{
+		"regency_id": 7109,
+		"regency_province_id": 71,
+		"regency_name": "KAB. KEP. SIAU TAGULANDANG BIA"
+	},
+	{
+		"regency_id": 7110,
+		"regency_province_id": 71,
+		"regency_name": "KAB. BOLAANG MONGONDOW TIMUR"
+	},
+	{
+		"regency_id": 7111,
+		"regency_province_id": 71,
+		"regency_name": "KAB. BOLAANG MONGONDOW SELATAN"
+	},
+	{
+		"regency_id": 7171,
+		"regency_province_id": 71,
+		"regency_name": "KOTA MANADO"
+	},
+	{
+		"regency_id": 7172,
+		"regency_province_id": 71,
+		"regency_name": "KOTA BITUNG"
+	},
+	{
+		"regency_id": 7173,
+		"regency_province_id": 71,
+		"regency_name": "KOTA TOMOHON"
+	},
+	{
+		"regency_id": 7174,
+		"regency_province_id": 71,
+		"regency_name": "KOTA KOTAMOBAGU"
+	},
+	{
+		"regency_id": 7201,
+		"regency_province_id": 72,
+		"regency_name": "KAB. BANGGAI"
+	},
+	{
+		"regency_id": 7202,
+		"regency_province_id": 72,
+		"regency_name": "KAB. POSO"
+	},
+	{
+		"regency_id": 7203,
+		"regency_province_id": 72,
+		"regency_name": "KAB. DONGGALA"
+	},
+	{
+		"regency_id": 7204,
+		"regency_province_id": 72,
+		"regency_name": "KAB. TOLI TOLI"
+	},
+	{
+		"regency_id": 7205,
+		"regency_province_id": 72,
+		"regency_name": "KAB. BUOL"
+	},
+	{
+		"regency_id": 7206,
+		"regency_province_id": 72,
+		"regency_name": "KAB. MOROWALI"
+	},
+	{
+		"regency_id": 7207,
+		"regency_province_id": 72,
+		"regency_name": "KAB. BANGGAI KEPULAUAN"
+	},
+	{
+		"regency_id": 7208,
+		"regency_province_id": 72,
+		"regency_name": "KAB. PARIGI MOUTONG"
+	},
+	{
+		"regency_id": 7209,
+		"regency_province_id": 72,
+		"regency_name": "KAB. TOJO UNA UNA"
+	},
+	{
+		"regency_id": 7210,
+		"regency_province_id": 72,
+		"regency_name": "KAB. SIGI"
+	},
+	{
+		"regency_id": 7211,
+		"regency_province_id": 72,
+		"regency_name": "KAB. BANGGAI LAUT"
+	},
+	{
+		"regency_id": 7212,
+		"regency_province_id": 72,
+		"regency_name": "KAB. MOROWALI UTARA"
+	},
+	{
+		"regency_id": 7271,
+		"regency_province_id": 72,
+		"regency_name": "KOTA PALU"
+	},
+	{
+		"regency_id": 7301,
+		"regency_province_id": 73,
+		"regency_name": "KAB. KEPULAUAN SELAYAR"
+	},
+	{
+		"regency_id": 7302,
+		"regency_province_id": 73,
+		"regency_name": "KAB. BULUKUMBA"
+	},
+	{
+		"regency_id": 7303,
+		"regency_province_id": 73,
+		"regency_name": "KAB. BANTAENG"
+	},
+	{
+		"regency_id": 7304,
+		"regency_province_id": 73,
+		"regency_name": "KAB. JENEPONTO"
+	},
+	{
+		"regency_id": 7305,
+		"regency_province_id": 73,
+		"regency_name": "KAB. TAKALAR"
+	},
+	{
+		"regency_id": 7306,
+		"regency_province_id": 73,
+		"regency_name": "KAB. GOWA"
+	},
+	{
+		"regency_id": 7307,
+		"regency_province_id": 73,
+		"regency_name": "KAB. SINJAI"
+	},
+	{
+		"regency_id": 7308,
+		"regency_province_id": 73,
+		"regency_name": "KAB. BONE"
+	},
+	{
+		"regency_id": 7309,
+		"regency_province_id": 73,
+		"regency_name": "KAB. MAROS"
+	},
+	{
+		"regency_id": 7310,
+		"regency_province_id": 73,
+		"regency_name": "KAB. PANGKAJENE KEPULAUAN"
+	},
+	{
+		"regency_id": 7311,
+		"regency_province_id": 73,
+		"regency_name": "KAB. BARRU"
+	},
+	{
+		"regency_id": 7312,
+		"regency_province_id": 73,
+		"regency_name": "KAB. SOPPENG"
+	},
+	{
+		"regency_id": 7313,
+		"regency_province_id": 73,
+		"regency_name": "KAB. WAJO"
+	},
+	{
+		"regency_id": 7314,
+		"regency_province_id": 73,
+		"regency_name": "KAB. SIDENRENG RAPPANG"
+	},
+	{
+		"regency_id": 7315,
+		"regency_province_id": 73,
+		"regency_name": "KAB. PINRANG"
+	},
+	{
+		"regency_id": 7316,
+		"regency_province_id": 73,
+		"regency_name": "KAB. ENREKANG"
+	},
+	{
+		"regency_id": 7317,
+		"regency_province_id": 73,
+		"regency_name": "KAB. LUWU"
+	},
+	{
+		"regency_id": 7318,
+		"regency_province_id": 73,
+		"regency_name": "KAB. TANA TORAJA"
+	},
+	{
+		"regency_id": 7322,
+		"regency_province_id": 73,
+		"regency_name": "KAB. LUWU UTARA"
+	},
+	{
+		"regency_id": 7324,
+		"regency_province_id": 73,
+		"regency_name": "KAB. LUWU TIMUR"
+	},
+	{
+		"regency_id": 7326,
+		"regency_province_id": 73,
+		"regency_name": "KAB. TORAJA UTARA"
+	},
+	{
+		"regency_id": 7371,
+		"regency_province_id": 73,
+		"regency_name": "KOTA MAKASSAR"
+	},
+	{
+		"regency_id": 7372,
+		"regency_province_id": 73,
+		"regency_name": "KOTA PARE PARE"
+	},
+	{
+		"regency_id": 7373,
+		"regency_province_id": 73,
+		"regency_name": "KOTA PALOPO"
+	},
+	{
+		"regency_id": 7401,
+		"regency_province_id": 74,
+		"regency_name": "KAB. KOLAKA"
+	},
+	{
+		"regency_id": 7402,
+		"regency_province_id": 74,
+		"regency_name": "KAB. KONAWE"
+	},
+	{
+		"regency_id": 7403,
+		"regency_province_id": 74,
+		"regency_name": "KAB. MUNA"
+	},
+	{
+		"regency_id": 7404,
+		"regency_province_id": 74,
+		"regency_name": "KAB. BUTON"
+	},
+	{
+		"regency_id": 7405,
+		"regency_province_id": 74,
+		"regency_name": "KAB. KONAWE SELATAN"
+	},
+	{
+		"regency_id": 7406,
+		"regency_province_id": 74,
+		"regency_name": "KAB. BOMBANA"
+	},
+	{
+		"regency_id": 7407,
+		"regency_province_id": 74,
+		"regency_name": "KAB. WAKATOBI"
+	},
+	{
+		"regency_id": 7408,
+		"regency_province_id": 74,
+		"regency_name": "KAB. KOLAKA UTARA"
+	},
+	{
+		"regency_id": 7409,
+		"regency_province_id": 74,
+		"regency_name": "KAB. KONAWE UTARA"
+	},
+	{
+		"regency_id": 7410,
+		"regency_province_id": 74,
+		"regency_name": "KAB. BUTON UTARA"
+	},
+	{
+		"regency_id": 7411,
+		"regency_province_id": 74,
+		"regency_name": "KAB. KOLAKA TIMUR"
+	},
+	{
+		"regency_id": 7412,
+		"regency_province_id": 74,
+		"regency_name": "KAB. KONAWE KEPULAUAN"
+	},
+	{
+		"regency_id": 7413,
+		"regency_province_id": 74,
+		"regency_name": "KAB. MUNA BARAT"
+	},
+	{
+		"regency_id": 7414,
+		"regency_province_id": 74,
+		"regency_name": "KAB. BUTON TENGAH"
+	},
+	{
+		"regency_id": 7415,
+		"regency_province_id": 74,
+		"regency_name": "KAB. BUTON SELATAN"
+	},
+	{
+		"regency_id": 7471,
+		"regency_province_id": 74,
+		"regency_name": "KOTA KENDARI"
+	},
+	{
+		"regency_id": 7472,
+		"regency_province_id": 74,
+		"regency_name": "KOTA BAU BAU"
+	},
+	{
+		"regency_id": 7501,
+		"regency_province_id": 75,
+		"regency_name": "KAB. GORONTALO"
+	},
+	{
+		"regency_id": 7502,
+		"regency_province_id": 75,
+		"regency_name": "KAB. BOALEMO"
+	},
+	{
+		"regency_id": 7503,
+		"regency_province_id": 75,
+		"regency_name": "KAB. BONE BOLANGO"
+	},
+	{
+		"regency_id": 7504,
+		"regency_province_id": 75,
+		"regency_name": "KAB. POHUWATO"
+	},
+	{
+		"regency_id": 7505,
+		"regency_province_id": 75,
+		"regency_name": "KAB. GORONTALO UTARA"
+	},
+	{
+		"regency_id": 7571,
+		"regency_province_id": 75,
+		"regency_name": "KOTA GORONTALO"
+	},
+	{
+		"regency_id": 7601,
+		"regency_province_id": 76,
+		"regency_name": "KAB. PASANGKAYU"
+	},
+	{
+		"regency_id": 7602,
+		"regency_province_id": 76,
+		"regency_name": "KAB. MAMUJU"
+	},
+	{
+		"regency_id": 7603,
+		"regency_province_id": 76,
+		"regency_name": "KAB. MAMASA"
+	},
+	{
+		"regency_id": 7604,
+		"regency_province_id": 76,
+		"regency_name": "KAB. POLEWALI MANDAR"
+	},
+	{
+		"regency_id": 7605,
+		"regency_province_id": 76,
+		"regency_name": "KAB. MAJENE"
+	},
+	{
+		"regency_id": 7606,
+		"regency_province_id": 76,
+		"regency_name": "KAB. MAMUJU TENGAH"
+	},
+	{
+		"regency_id": 8101,
+		"regency_province_id": 81,
+		"regency_name": "KAB. MALUKU TENGAH"
+	},
+	{
+		"regency_id": 8102,
+		"regency_province_id": 81,
+		"regency_name": "KAB. MALUKU TENGGARA"
+	},
+	{
+		"regency_id": 8103,
+		"regency_province_id": 81,
+		"regency_name": "KAB. KEPULAUAN TANIMBAR"
+	},
+	{
+		"regency_id": 8104,
+		"regency_province_id": 81,
+		"regency_name": "KAB. BURU"
+	},
+	{
+		"regency_id": 8105,
+		"regency_province_id": 81,
+		"regency_name": "KAB. SERAM BAGIAN TIMUR"
+	},
+	{
+		"regency_id": 8106,
+		"regency_province_id": 81,
+		"regency_name": "KAB. SERAM BAGIAN BARAT"
+	},
+	{
+		"regency_id": 8107,
+		"regency_province_id": 81,
+		"regency_name": "KAB. KEPULAUAN ARU"
+	},
+	{
+		"regency_id": 8108,
+		"regency_province_id": 81,
+		"regency_name": "KAB. MALUKU BARAT DAYA"
+	},
+	{
+		"regency_id": 8109,
+		"regency_province_id": 81,
+		"regency_name": "KAB. BURU SELATAN"
+	},
+	{
+		"regency_id": 8171,
+		"regency_province_id": 81,
+		"regency_name": "KOTA AMBON"
+	},
+	{
+		"regency_id": 8172,
+		"regency_province_id": 81,
+		"regency_name": "KOTA TUAL"
+	},
+	{
+		"regency_id": 8201,
+		"regency_province_id": 82,
+		"regency_name": "KAB. HALMAHERA BARAT"
+	},
+	{
+		"regency_id": 8202,
+		"regency_province_id": 82,
+		"regency_name": "KAB. HALMAHERA TENGAH"
+	},
+	{
+		"regency_id": 8203,
+		"regency_province_id": 82,
+		"regency_name": "KAB. HALMAHERA UTARA"
+	},
+	{
+		"regency_id": 8204,
+		"regency_province_id": 82,
+		"regency_name": "KAB. HALMAHERA SELATAN"
+	},
+	{
+		"regency_id": 8205,
+		"regency_province_id": 82,
+		"regency_name": "KAB. KEPULAUAN SULA"
+	},
+	{
+		"regency_id": 8206,
+		"regency_province_id": 82,
+		"regency_name": "KAB. HALMAHERA TIMUR"
+	},
+	{
+		"regency_id": 8207,
+		"regency_province_id": 82,
+		"regency_name": "KAB. PULAU MOROTAI"
+	},
+	{
+		"regency_id": 8208,
+		"regency_province_id": 82,
+		"regency_name": "KAB. PULAU TALIABU"
+	},
+	{
+		"regency_id": 8271,
+		"regency_province_id": 82,
+		"regency_name": "KOTA TERNATE"
+	},
+	{
+		"regency_id": 8272,
+		"regency_province_id": 82,
+		"regency_name": "KOTA TIDORE KEPULAUAN"
+	},
+	{
+		"regency_id": 9103,
+		"regency_province_id": 91,
+		"regency_name": "KAB. JAYAPURA"
+	},
+	{
+		"regency_id": 9105,
+		"regency_province_id": 91,
+		"regency_name": "KAB. KEPULAUAN YAPEN"
+	},
+	{
+		"regency_id": 9106,
+		"regency_province_id": 91,
+		"regency_name": "KAB. BIAK NUMFOR"
+	},
+	{
+		"regency_id": 9110,
+		"regency_province_id": 91,
+		"regency_name": "KAB. SARMI"
+	},
+	{
+		"regency_id": 9111,
+		"regency_province_id": 91,
+		"regency_name": "KAB. KEEROM"
+	},
+	{
+		"regency_id": 9115,
+		"regency_province_id": 91,
+		"regency_name": "KAB. WAROPEN"
+	},
+	{
+		"regency_id": 9119,
+		"regency_province_id": 91,
+		"regency_name": "KAB. SUPIORI"
+	},
+	{
+		"regency_id": 9120,
+		"regency_province_id": 91,
+		"regency_name": "KAB. MAMBERAMO RAYA"
+	},
+	{
+		"regency_id": 9171,
+		"regency_province_id": 91,
+		"regency_name": "KOTA JAYAPURA"
+	},
+	{
+		"regency_id": 9201,
+		"regency_province_id": 92,
+		"regency_name": "KAB. SORONG"
+	},
+	{
+		"regency_id": 9202,
+		"regency_province_id": 92,
+		"regency_name": "KAB. MANOKWARI"
+	},
+	{
+		"regency_id": 9203,
+		"regency_province_id": 92,
+		"regency_name": "KAB. FAK FAK"
+	},
+	{
+		"regency_id": 9204,
+		"regency_province_id": 92,
+		"regency_name": "KAB. SORONG SELATAN"
+	},
+	{
+		"regency_id": 9205,
+		"regency_province_id": 92,
+		"regency_name": "KAB. RAJA AMPAT"
+	},
+	{
+		"regency_id": 9206,
+		"regency_province_id": 92,
+		"regency_name": "KAB. TELUK BINTUNI"
+	},
+	{
+		"regency_id": 9207,
+		"regency_province_id": 92,
+		"regency_name": "KAB. TELUK WONDAMA"
+	},
+	{
+		"regency_id": 9208,
+		"regency_province_id": 92,
+		"regency_name": "KAB. KAIMANA"
+	},
+	{
+		"regency_id": 9209,
+		"regency_province_id": 92,
+		"regency_name": "KAB. TAMBRAUW"
+	},
+	{
+		"regency_id": 9210,
+		"regency_province_id": 92,
+		"regency_name": "KAB. MAYBRAT"
+	},
+	{
+		"regency_id": 9211,
+		"regency_province_id": 92,
+		"regency_name": "KAB. MANOKWARI SELATAN"
+	},
+	{
+		"regency_id": 9212,
+		"regency_province_id": 92,
+		"regency_name": "KAB. PEGUNUNGAN ARFAK"
+	},
+	{
+		"regency_id": 9271,
+		"regency_province_id": 92,
+		"regency_name": "KOTA SORONG"
+	},
+	{
+		"regency_id": 9301,
+		"regency_province_id": 93,
+		"regency_name": "KAB. MERAUKE"
+	},
+	{
+		"regency_id": 9302,
+		"regency_province_id": 93,
+		"regency_name": "KAB. BOVEN DIGOEL"
+	},
+	{
+		"regency_id": 9303,
+		"regency_province_id": 93,
+		"regency_name": "KAB. MAPPI"
+	},
+	{
+		"regency_id": 9304,
+		"regency_province_id": 93,
+		"regency_name": "KAB. ASMAT"
+	},
+	{
+		"regency_id": 9401,
+		"regency_province_id": 94,
+		"regency_name": "KAB. NABIRE"
+	},
+	{
+		"regency_id": 9402,
+		"regency_province_id": 94,
+		"regency_name": "KAB. PUNCAK JAYA"
+	},
+	{
+		"regency_id": 9403,
+		"regency_province_id": 94,
+		"regency_name": "KAB. PANIAI"
+	},
+	{
+		"regency_id": 9404,
+		"regency_province_id": 94,
+		"regency_name": "KAB. MIMIKA"
+	},
+	{
+		"regency_id": 9405,
+		"regency_province_id": 94,
+		"regency_name": "KAB. PUNCAK"
+	},
+	{
+		"regency_id": 9406,
+		"regency_province_id": 94,
+		"regency_name": "KAB. DOGIYAI"
+	},
+	{
+		"regency_id": 9407,
+		"regency_province_id": 94,
+		"regency_name": "KAB. INTAN JAYA"
+	},
+	{
+		"regency_id": 9408,
+		"regency_province_id": 94,
+		"regency_name": "KAB. DEIYAI"
+	},
+	{
+		"regency_id": 9501,
+		"regency_province_id": 95,
+		"regency_name": "KAB. JAYAWIJAYA"
+	},
+	{
+		"regency_id": 9502,
+		"regency_province_id": 95,
+		"regency_name": "KAB. PEGUNUNGAN BINTANG"
+	},
+	{
+		"regency_id": 9503,
+		"regency_province_id": 95,
+		"regency_name": "KAB. YAHUKIMO"
+	},
+	{
+		"regency_id": 9504,
+		"regency_province_id": 95,
+		"regency_name": "KAB. TOLIKARA"
+	},
+	{
+		"regency_id": 9505,
+		"regency_province_id": 95,
+		"regency_name": "KAB. MAMBERAMO TENGAH"
+	},
+	{
+		"regency_id": 9506,
+		"regency_province_id": 95,
+		"regency_name": "KAB. YALIMO"
+	},
+	{
+		"regency_id": 9507,
+		"regency_province_id": 95,
+		"regency_name": "KAB. LANNY JAYA"
+	},
+	{
+		"regency_id": 9508,
+		"regency_province_id": 95,
+		"regency_name": "KAB. NDUGA"
+	}
+]

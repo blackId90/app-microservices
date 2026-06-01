@@ -1,0 +1,42 @@
+services:
+  multi-tenant:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.prod
+    container_name: control-center-service
+    volumes:
+      - .:/var/www
+      - ./docker/php/php-fpm-custom.conf:/usr/local/etc/php-fpm.d/zz-custom.conf
+      - ../../application_environments/app-multi-tenant-microservice-auth-service.prod.env:/var/www/.env
+    expose:
+      - "9000"
+    working_dir: /var/www
+    mem_limit: 1g
+    cpus: 1.0
+    # tty: true
+    extra_hosts:
+      host.docker.internal: host-gateway
+    networks:
+      - postgressql_network_local
+      - redis_network_local
+
+  nginx:
+    image: nginx:latest
+    container_name: multi-tenant-auth-nginx
+    ports:
+      - "9010:80"
+    volumes:
+      - .:/var/www
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    networks:
+        - postgressql_network_local
+        - redis_network_local
+    depends_on:
+      - auth-service
+
+## Network
+networks:
+  postgressql_network_local:
+    external: true
+  redis_network_local:
+    external: true

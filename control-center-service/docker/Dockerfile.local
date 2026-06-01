@@ -1,0 +1,42 @@
+FROM php:8.5-cli
+
+# Build-time arguments
+ARG HOST_UID
+ARG HOST_GID
+ARG HOST_USER
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    git zip unzip curl libpq-dev libonig-dev libxml2-dev \
+    libzip-dev libpng-dev libjpeg-dev libfreetype6-dev \
+    libssl-dev libcurl4-openssl-dev libxslt-dev libicu-dev \
+    libreadline-dev libedit-dev libsqlite3-dev libargon2-1 \
+    libgd-dev libjson-c-dev libbz2-dev libxpm-dev
+
+# Install Extensions
+RUN docker-php-ext-install \
+    pdo pdo_pgsql mbstring bz2 zip gd bcmath intl xml pcntl \
+    && pecl install redis xdebug \
+    && docker-php-ext-enable redis xdebug
+
+# Clear cache
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Create user with same UID/GID as host
+RUN echo "UID=${HOST_UID}, GID=${HOST_GID}, USER=${HOST_USER}"
+RUN groupadd -g ${HOST_GID} ${HOST_USER}-group \
+    && useradd -u ${HOST_UID} -g ${HOST_USER}-group -m ${HOST_USER}-user
+
+# Install Composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+
+WORKDIR /var/www
+
+# Running container with non-root user
+USER ${HOST_USER}-user
+
+# Expose port for artisan serve
+EXPOSE 8000
+
+# CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+CMD ["/bin/sh", "-c", "composer install --no-interaction --prefer-dist && php artisan package:discover --ansi && exec php artisan serve --host=0.0.0.0 --port=8000"]

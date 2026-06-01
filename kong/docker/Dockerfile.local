@@ -1,0 +1,89 @@
+###############################################
+# Stage 1 — Builder
+# Tujuan:
+# - Install gettext (envsubst)
+# - Copy semua plugin
+###############################################
+FROM debian:stable-slim AS builder
+
+# Prevent interactive issues
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install gettext only (lighter than full apt-get update)
+RUN apt-get update \
+  && apt-get install -y gettext \
+  && rm -rf /var/lib/apt/lists/*
+
+# Create plugin folder (same as Kong)
+RUN mkdir -p /build/plugins
+
+# Copy all plugins
+COPY plugins/shared /build/plugins/shared
+COPY plugins/custom-inject-header /build/plugins/custom-inject-header
+COPY plugins/custom-cors /build/plugins/custom-cors
+COPY plugins/custom-rate-limiter /build/plugins/custom-rate-limiter
+COPY plugins/custom-error-handler /build/plugins/custom-error-handler
+
+###############################################
+# Stage 2 — Final Kong Image (super slim)
+# Tujuan:
+# - Copy plugin artifacts dari builder
+# - Copy template + entrypoint
+# - Set permission
+# - Default Kong ENV
+###############################################
+FROM kong:3.9 AS final
+
+# Switch to root for filesystem operations
+USER root
+
+# Install gettext ONLY (needed for envsubst)
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends gettext \
+  && rm -rf /var/lib/apt/lists/*
+
+# Slimming: remove docs, manpages, locales, cache
+RUN rm -rf /usr/share/doc/* \
+  /usr/share/man/* \
+  /usr/share/info/* \
+  /usr/share/locale/* \
+  /var/cache/apt/* \
+  /var/log/*
+
+# Create declarative folder
+RUN mkdir -p /usr/local/kong/declarative \
+  && chown -R kong:kong /usr/local/kong/declarative
+
+# Copy plugins from builder stage
+COPY --from=builder /build/plugins /usr/local/share/lua/5.1/kong/plugins
+
+# Fix permission for Kong user
+RUN chown -R kong:kong /usr/local/share/lua/5.1/kong/plugins \
+  && chmod -R 755 /usr/local/share/lua/5.1/kong/plugins
+
+# Copy declarative config template + entrypoint
+COPY ./config/kong.yml.template /usr/local/kong/declarative/kong.yml.template
+COPY ./docker/init.d/entrypoint.sh /usr/local/bin/custom-entrypoint.sh
+
+RUN chown kong:kong /usr/local/kong/declarative/kong.yml.template \
+  && chmod +x /usr/local/bin/custom-entrypoint.sh
+
+# DEFAULT KONG ENV
+ENV KONG_DECLARATIVE_CONFIG="/usr/local/kong/declarative/kong.yml" \
+  KONG_PLUGINS="bundled,custom-inject-header,custom-cors,custom-rate-limiter,custom-error-handler" \
+  KONG_LUA_PACKAGE_PATH="/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;;" \
+  KONG_ADMIN_LISTEN="0.0.0.0:8001" \
+  KONG_PROXY_ACCESS_LOG="/dev/stdout" \
+  KONG_ADMIN_ACCESS_LOG="/dev/stdout" \
+  KONG_PROXY_ERROR_LOG="/dev/stderr" \
+  KONG_ADMIN_ERROR_LOG="/dev/stderr" \
+  KONG_ANONYMOUS_REPORTS=off \
+  KONG_NGINX_WORKER_PROCESSES="1" \
+  KONG_NGINX_WORKER_CONNECTIONS="4096" \
+  KONG_NGINX_USER=kong
+
+# Return to kong user (very important for security)
+USER kong
+
+# Set custom entrypoint
+ENTRYPOINT ["/usr/local/bin/custom-entrypoint.sh"]

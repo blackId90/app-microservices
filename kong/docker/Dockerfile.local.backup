@@ -1,0 +1,56 @@
+FROM kong:3.9
+# FROM kong:latest
+# FROM kong/kong-gateway:latest
+
+# Switch to root for filesystem operations
+USER root
+
+# Install envsubst (from gettext)
+RUN apt-get update && apt-get install -y gettext
+
+# Create declarative folder with correct permissions
+RUN mkdir -p /usr/local/kong/declarative \
+  && chown -R kong:kong /usr/local/kong/declarative
+
+
+# ==============================
+# COPY ALL CUSTOM PLUGINS INTO IMAGE
+# ==============================
+
+# Shared utilities
+COPY ./plugins/shared /usr/local/share/lua/5.1/kong/plugins/shared
+
+# custom-inject-header
+COPY ./plugins/custom-inject-header /usr/local/share/lua/5.1/kong/plugins/custom-inject-header
+
+# custom-cors
+COPY ./plugins/custom-cors /usr/local/share/lua/5.1/kong/plugins/custom-cors
+
+# custom-rate-limiter
+COPY ./plugins/custom-rate-limiter /usr/local/share/lua/5.1/kong/plugins/custom-rate-limiter
+
+# custom-error-handler
+COPY ./plugins/custom-error-handler /usr/local/share/lua/5.1/kong/plugins/custom-error-handler
+
+# Make sure permissions are correct
+RUN chown -R kong:kong /usr/local/share/lua/5.1/kong/plugins \
+  && chmod -R 755 /usr/local/share/lua/5.1/kong/plugins
+# ==============================
+
+
+# Copy template + entrypoint
+COPY kong.yml.template /usr/local/kong/declarative/kong.yml.template
+COPY entrypoint.sh /usr/local/bin/custom-entrypoint.sh
+
+# Fix permissions
+RUN chown kong:kong /usr/local/kong/declarative/kong.yml.template \
+  && chmod +x /usr/local/bin/custom-entrypoint.sh
+
+# Return to kong user (very important for security)
+USER kong
+
+# Ensure script is executable
+# RUN chmod +x /usr/local/bin/custom-entrypoint.sh
+
+# Set custom entrypoint
+ENTRYPOINT ["/usr/local/bin/custom-entrypoint.sh"]

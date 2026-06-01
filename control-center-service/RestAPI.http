@@ -1,0 +1,115 @@
+# Rest Client
+
+@hostname = http://127.0.0.1
+@port = 8000
+@pathType = api
+@pathVersion = v1
+@host = {{hostname}}:{{port}}
+@baseUrl = {{host}}/{{pathType}}/{{pathVersion}}
+@authService = auth
+@controlCenterService = control-center
+@userAgent = Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0
+@apiKeyClient = PhKEZRetNHsvKbYuT00qpZi5jL1v4BMouX3z3cdM7PTIgWN2E7na1Mhf6NxSstRnD5ClI2ltLXu52pqCeQegPIfAmSB14rkomXOHjSw8W79hOVz4Z3lbrUTDWcsvkaxq8nAd9FQQj8gyVkpLCUfmGx
+@typeAuthorization = {{authLogin.response.body.data.$.type_token}}
+@accessAuthorization = {{authLogin.response.body.data.$.access_token}}
+@authorization = {{typeAuthorization}} {{accessAuthorization}}
+# @authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAiLCJpYXQiOjE3NzEyNTcxODgsImV4cCI6MTc3MTI2NDM4OCwibmJmIjoxNzcxMjU3MTg4LCJqdGkiOiJqd3RfMDE5YzY3MjctZDEzNC03MmEzLTkyNzUtOTU0ZWNjZTUyNWEwIiwic3ViIjoiYmFlZjMxOTMtNjQ5NC0xMWVkLWJjZDEtMTg2MDI0YjhkMTc0IiwicHJ2IjoiM2QzYTY4Nzk2MjEzM2MwOWI1ZWE5MDUzNWUwYjMxYmJjODliMjAyMCIsImlzX2FkbWluIjpmYWxzZSwiY29tcGFueSI6IjAxOWIwYzQ0LTYzMDEtNzJjYS05NjU1LWFmZDM1OTc1YTQ2OSIsInJvbGUiOiI4NWViM2JjMi02MjUyLTExZWQtYmVkNC0xODYwMjRiOGQxNzQiLCJ0ZW1wIjpmYWxzZSwic2NvcGUiOiJmdWxsX2FjY2VzcyIsInB1cnBvc2UiOiJhdXRoIn0.i0rucIoNzmexRWEXN67CbhzMTFaQdhEfXUk9-hW55uk
+
+
+#! [Control Center Service]
+### [Control Center] Check API Apps
+GET {{baseUrl}}/{{controlCenterService}} HTTP/1.1
+Accept: application/json
+User-Agent: {{userAgent}}
+
+
+### [Control Center] Check Health Apps
+GET {{baseUrl}}/{{controlCenterService}}/health HTTP/1.1
+Accept: application/json
+User-Agent: {{userAgent}}
+
+
+### [Control Center] Check Test Guard Apps
+GET {{baseUrl}}/{{controlCenterService}}/test-auth HTTP/1.1
+Accept: application/json
+User-Agent: {{userAgent}}
+
+
+### [Control Center][Internal] Profile Signin
+GET {{baseUrl}}/{{controlCenterService}}/internal/auth-user HTTP/1.1
+Accept: application/json
+Authorization: {{authorization}}
+User-Agent: {{userAgent}}
+X-API-Key-Client: {{apiKeyClient}}
+X-Request-Source: ControlCenterService
+
+
+### [Control Center][Internal] Destroy Profile Signin
+DELETE {{baseUrl}}/{{controlCenterService}}/internal/auth-user HTTP/1.1
+Accept: application/json
+Authorization: {{authorization}}
+User-Agent: {{userAgent}}
+X-API-Key-Client: {{apiKeyClient}}
+X-Request-Source: ControlCenterService
+
+
+#! [Auth Service]
+### [Auth] Login
+# @name authLogin
+@email = admin@getnada.com
+@password = 123456789
+POST {{baseUrl}}/{{authService}}/login
+Accept: application/json
+Content-Type: application/json
+User-Agent: {{userAgent}}
+
+{
+    "email": "{{email}}",
+    "password": "{{password}}"
+}
+
+
+### [Auth] Menu Logout
+DELETE {{baseUrl}}/{{authService}}/logout HTTP/1.1
+Accept: application/json
+Authorization: {{authorization}}
+User-Agent: {{userAgent}}
+
+
+### [Auth] Menu Profile Signin
+GET {{baseUrl}}/{{authService}}/user HTTP/1.1
+Accept: application/json
+Authorization: {{authorization}}
+User-Agent: {{userAgent}}
+
+
+### [Auth] Menu Signin
+GET {{baseUrl}}/{{authService}}/menus HTTP/1.1
+Accept: application/json
+Authorization: {{authorization}}
+User-Agent: {{userAgent}}
+
+
+### [Auth][Internal] Menu Signin
+GET {{baseUrl}}/{{authService}}/internal/menus HTTP/1.1
+Accept: application/json
+Authorization: {{authorization}}
+User-Agent: {{userAgent}}
+X-API-Key-Client: {{apiKeyClient}}
+X-Request-Source: AuthService
+
+
+### [Auth][Internal] Has Access Permission (Communication for Services)
+POST {{baseUrl}}/{{authService}}/internal/has-access HTTP/1.1
+Accept: application/json
+Authorization: {{authorization}}
+Content-Type: application/json
+User-Agent: {{userAgent}}
+X-API-Key-Client: {{apiKeyClient}}
+X-Request-Source: AuthService
+
+{
+    "permission_slug": "1",
+    "route_name": "1"
+}
+

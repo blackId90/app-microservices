@@ -1,0 +1,13 @@
+FROM edoburu/pgbouncer:latest
+
+USER root
+RUN apk add --no-cache gettext
+USER postgres
+
+COPY ./config/pgbouncer.ini.template /etc/pgbouncer/pgbouncer.ini.template
+COPY ./config/userlist.txt /etc/pgbouncer/userlist.txt
+COPY --chmod=755 ./docker/init.d/entrypoint.sh /entrypoint.sh
+
+EXPOSE 6432
+
+ENTRYPOINT ["/entrypoint.sh"]

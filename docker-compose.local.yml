@@ -1,0 +1,142 @@
+services:
+  # Kong Gateway Service
+  app-gateway:
+    build:
+      context: ./kong
+      dockerfile: ./docker/Dockerfile.local
+    container_name: kong-gateway
+    env_file:
+      - ./kong/.env.local
+    ports:
+      - "8000:8000" # public proxy port
+      # - "8443:8443" # proxy SSL
+      - "8081:8001" # admin API
+      # - "8084:8444" # admin SSL
+    networks:
+      - network_local
+    mem_limit: 1g
+    cpus: 1.0
+    ulimits:
+      nofile:
+        soft: 4096
+        hard: 4096
+    restart: always
+
+  # Auth Service
+  app-auth:
+    build:
+      args:
+        HOST_UID: 1000
+        HOST_GID: 1000
+        HOST_USER: topik
+      context: ./auth-service
+      dockerfile: ./docker/Dockerfile.local
+    container_name: auth-service
+    volumes:
+      - ./auth-service/.:/var/www
+      - ./auth-service/.env.local:/var/www/.env
+      - ./auth-service/docker/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+    # ports:
+    #   - "8001:8001" # Laravel local server
+    #   - "9003:9003" # Xdebug port
+    working_dir: /var/www
+    mem_limit: 512m #1g
+    cpus: 0.5 #1.0
+    tty: true
+    restart: always
+    extra_hosts:
+      host.docker.internal: host-gateway
+    networks:
+      - network_local
+
+  # Control Center Service
+  app-control:
+    build:
+      args:
+        HOST_UID: 1000
+        HOST_GID: 1000
+        HOST_USER: topik
+      context: ./control-center-service
+      dockerfile: ./docker/Dockerfile.local
+    container_name: control-center-service
+    volumes:
+      - ./control-center-service/.:/var/www
+      - ./control-center-service/.env.local:/var/www/.env
+      - ./control-center-service/docker/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+    # ports:
+    #   - "8002:8002" # Laravel local server
+    #   - "9003:9003" # Xdebug port
+    working_dir: /var/www
+    mem_limit: 512m
+    cpus: 0.5
+    tty: true
+    restart: always
+    extra_hosts:
+      host.docker.internal: host-gateway
+    networks:
+      - network_local
+
+  # PostgreSQL Service
+  postgres:
+    container_name: postgres-local
+    build:
+      context: ./postgresql
+      dockerfile: ./config/Dockerfile
+    env_file:
+      - ./postgresql/.env.local
+    ports:
+      - 5432:5432
+    restart: always
+    volumes:
+      - storage-postgres-local:/var/lib/postgresql/data # PostgreSQL Version 17 and below
+      # - ./config/postgres.conf:/etc/postgresql/postgresql.conf
+      # - ./init.sql:/docker-entrypoint-initdb.d/init.sql # Optional: mount init scripts
+    mem_limit: 1g
+    cpus: 1.0
+    networks:
+      - network_local
+
+  # Pgbouncer Service
+  pgbouncer:
+    container_name: pgbouncer-local
+    build:
+      context: ./pgbouncer
+      dockerfile: ./docker/Dockerfile.local
+    restart: unless-stopped
+    ports:
+      - "6432:6432"
+    env_file:
+      - ./pgbouncer/.env.local
+    volumes:
+      - ./pgbouncer/logs:/var/log/pgbouncer
+    mem_limit: 256m
+    cpus: 0.5
+    networks:
+      - network_local
+
+  # Redis Service
+  redis:
+    container_name: redis-local
+    build:
+      context: ./redis
+      dockerfile: ./config/Dockerfile
+    ports:
+      - "6379:6379"
+    volumes:
+      - storage-redis-local:/data
+      - ./redis/config/redis.conf:/usr/local/etc/redis/redis.conf
+    # command: redis-server --save 60 1 --loglevel warning
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    restart: unless-stopped
+    mem_limit: 512m
+    cpus: 0.5
+    networks:
+      - network_local
+
+volumes:
+  storage-postgres-local:
+  storage-redis-local:
+
+networks:
+  network_local:
+    driver: bridge
