@@ -1,7 +1,7 @@
 # Microservices (Laravel) + Kong Gateway + PostgreSQL + Redis + Pgbouncer
 
 ## Deskripsi Singkat Project
-Project ini membangun arsitektur **microservices** berbasis **Laravel** yang dijalankan menggunakan **Docker Compose**. **Kong Gateway** berperan sebagai *API Gateway / Reverse Proxy* untuk mengatur akses eksternal ke seluruh service.
+Project ini membangun arsitektur **microservices** berbasis **Laravel** yang dijalankan menggunakan **Docker Compose**. **Kong Gateway** berperan sebagai *API Gateway / Reverse Proxy* untuk mengatur akses eksternal ke seluruh service. project ini menggunakan RBAC (Role-Based Access Control) berdasarkan peran pengguna, serta mendukung multi-bahasa **bahasa inggris / bahasa indonesia** berdasarkan header yang dikirim oleh client jika tidak default header `Accept-Language`: `en`.
 
 ## Teknologi Stack
 | Component | Technology |
@@ -90,22 +90,34 @@ Keterangan autentikasi/otorisasi yang diterapkan saat request melewati service:
 - Single entry point untuk akses API
 - Routing request ke service internal
 - Endpoint admin untuk konfigurasi/monitoring
+- Rate limiter
+- Validasi bearer token
 
 ### 2) Auth Service (`auth-service/`)
 - Domain: autentikasi & authorization
-- Menyediakan API melalui routing Laravel
-- Mengelola skema database dengan:
-  - migrations
-  - seeding (`php artisan migrate:fresh --seed`)
+- Modules:
+  - autentikasi
+  - authorization (RBAC)
+  - login attempts
+  - register
+  - verifikasi email
+  - profile user login
+  - daftar menu user login
 
 ### 3) Control Center Service (`control-center-service/`)
-- Domain: control center (sesuai implementasi project)
-- Menyediakan API via Laravel routes
-- Mengelola skema database melalui migrations & seeding
+- Domain: control center
+- Modules:
+  - CRUD user
+  - CRUD permission
+  - CRUD role + menetapkan permission
+  - management akses token
+  - CRUD mata uang
+  - CRUD benua
+  - CRUD negara
+  - CRUD bahasa
 
 ### 4) PostgreSQL (`postgresql/`)
 - Database utama
-- Data disimpan ke volume `storage-postgres-local`
 
 ### 5) Pgbouncer (`pgbouncer/`)
 - Connection pooling menuju PostgreSQL
